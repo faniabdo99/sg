@@ -5,7 +5,9 @@
       <div class="row">
           <div class="col-md-3 col-xs-6 col-sm-6">
               <div class="card-view">
-                  <img src="/icons/website.png" alt="Website Service Logo" />
+                  <div class="card-icon">
+                      <i class="fas fa-times"></i>
+                  </div>
                   <h3>Identity Design</h3>
                   <ul>
                       <li><span><i class="fas fa-file-code"></i>Logo</span></li>
@@ -42,6 +44,9 @@
     p{
         text-align:center;
         color:$dark-gray;
+    }
+    .card-icon{
+        
     }
 
     .card-view{
