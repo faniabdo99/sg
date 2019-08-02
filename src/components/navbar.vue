@@ -1,12 +1,12 @@
 <template>
   <div>
-      <nav>
+      <nav :scroll="navBgOnScroll">
           <div class="brand-name">
                 <div><img src="/icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
                 <div><b>Semicolon<br> Group</b></div>
           </div>
           <div class="navbar-mobile-toggle">
-             <a href="#"><img @click="ToggleNavbar()" src="/icons/bars.png" alt="Toggle Menu List"></a>
+             <a href=""><img @click.prevent="ToggleNavbar()" src="/icons/bars.png" alt="Toggle Menu List"></a>
           </div>
           <ul class="links-list">
               <li><a href="#">Home</a></li>
@@ -36,6 +36,21 @@ export default {
           }
 },
       //End Toggle Navbar Function Here .
+ navBgOnScroll: function(){
+        let nav = document.querySelector('nav');
+            if (window.scrollY <= 50) { // Just an example
+                nav.classList.remove('active');
+            } else {
+                nav.classList.add('active');
+            }
+        
+      },
+      //End Navbar Scroll Here
+  },
+    
+//Component Live Cycle Hooks    
+created () {
+    window.addEventListener('scroll', this.navBgOnScroll);
   }
 }
 </script>
@@ -45,12 +60,16 @@ export default {
 @import "../assets/sass/vars.scss";
 //The nav Container
 nav{
+    transition: all ease-in-out 0.4s;
     display:flex;
     justify-content: space-between;
     flex-basis: 0;
     align-items: center;
     padding:15px 5%;
     z-index:999999;
+    position: fixed;
+    width: 90%;
+  
     //The Logo and the brand name
     .brand-name{
         display: flex;
@@ -115,7 +134,15 @@ nav{
             animation: navbarAnimation 0.5s;
         }
     }
+
+      &.active{
+        padding:15px 7%;
+        width: 86%;
+        background-color:#fff;
+        border-bottom: 4px solid $brand;
+    }
 }
+
 
 
 /*KeyFrames Animation Fuckers :D */
@@ -130,8 +157,14 @@ nav{
 
 @media screen and (max-width: 768px) {
 nav{
-    padding:10px 0;
-    position: relative;
+    padding:10px;
+    width: 100%;
+    &.active{
+        padding:10px;
+        width: 100%;
+        background-color: #fff;
+        border-bottom:2px solid $brand;
+}
     //The Logo and the brand name
     .brand-name{
         flex:1;

@@ -17,7 +17,7 @@ export default {
 //Hero Section Styles Here
 .hero-section{
     background-size: cover;
-    height: 350px;
+    height: 400px;
     padding: 100px 0 20px 5%;
     background: url('/icons/hero.png') center right no-repeat;
     background-size: contain;
@@ -48,7 +48,7 @@ export default {
 @media screen and (max-width: 768px) {
 .hero-section{
     height: 280px;
-    padding: 50px 5% 20px 5%;
+    padding: 90px 5% 20px 5%;
     background: none;
     h1{
         font-size: 2em;

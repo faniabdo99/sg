@@ -5,6 +5,7 @@
         <hero></hero>
         <about></about>
         <services></services>
+        <team></team>
     </div>
    
   </div>
@@ -15,10 +16,11 @@ import Navbar from './components/navbar.vue'
 import Hero from './components/hero.vue'
 import About from './components/about-us.vue'
 import Services from './components/services.vue'
+import Team from './components/team.vue'
 export default {
   name: 'app',
   components: {
-    Navbar,Hero,About,Services
+    Navbar,Hero,About,Services,Team
   }
 }
 </script>
