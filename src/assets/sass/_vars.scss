@@ -1,0 +1,14 @@
+//Variables & Colors
+$brand : #595698;
+
+$black: #333;
+$light-gray:#f0f0f0;
+$dark-gray:#585858;
+
+//Mixins ( Fancy Way of Syaing Function :D )
+@mixin trans () { //Not Used anywhere yet...
+    transform: all ease-in-out 0.3s;
+  }
+
+//Paddings And Margins 
+$section-padding: 50px 5% 50px 5%;

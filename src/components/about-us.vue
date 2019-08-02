@@ -1,0 +1,205 @@
+<template>
+    <div class="about-us-section">
+        <div class="row">
+                <div class="col-md-8 col-xs-12 col-sm-12">
+                    <h2 class="section-title">About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam assumenda id eius, autem harum itaque dignissimos officiis, ex odio cupiditate doloribus impedit minima inventore necessitatibus? Odio suscipit quia dolores?</p>
+                    <ul>
+                        <li class="social-link facebook"><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
+                        <li class="social-link instagram"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li class="social-link twitter"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="pull-left col-md-4 col-xs-12 col-sm-12">
+                    <div class="company-name">
+                        <div>
+                            <img src="/icons/logo.png" alt="Semicolon Group Logo">
+                        </div>
+                        <h2>Abd Arahman Fani <br><small>Founder & CEO</small></h2>
+                    </div>
+                        <br>
+                        <blockquote>
+                            <i class="fas fa-quote-left"></i> 
+                                We Like to make simple and amaizng looking identites , We're very proud of every
+                                person we served on our journy , we hope to hear soon from you !
+                            <i class="fas fa-quote-right"></i> 
+                        </blockquote>
+                </div>
+    </div>
+</div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style scoped lang="scss">
+@import "../assets/sass/vars.scss";
+//About Us Section Styles Here
+.about-us-section{
+    display: block;
+    background-color: $light-gray;
+    padding: $section-padding;
+}
+ul{
+    margin-top: 10px;
+    li{
+        display: inline-block;
+        &.social-link {
+            a{
+                transition: all ease 0.3s;
+                font-weight: bold;
+                border-radius: 5px;
+                display:block;
+                padding:10px 15px;
+                text-decoration: none;
+                border:2px solid $light-gray;
+                  &:hover{
+                    transition: all ease 0.3s;
+                    background-color: transparent;
+                }
+            }
+        }
+        //Facebook
+        &.facebook{
+            a{
+                background-color: #3b5998;
+                color: #fff;
+                &:hover{
+                    border-color: #3b5998;
+                    color:#3b5998;
+                }
+            }
+        }
+         //Instagram
+        &.instagram{
+            a{
+                background-color: #e4717a;
+                color: #fff;
+                &:hover{
+                    border-color: #e4717a;
+                    color:#e4717a;
+                }
+            }
+        }
+         //Facebook
+        &.twitter{
+            a{
+                background-color: #1da1f2;
+                color: #fff;
+                &:hover{
+                    border-color: #1da1f2;
+                    color:#1da1f2;
+                }
+            }
+        }
+    }
+}
+h2.section-title{
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+p{
+    text-align: left;
+    color:$dark-gray;
+    line-height: 1.5em;
+}
+
+
+
+//The Right Side
+.company-name{
+    display: flex;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+       h2{
+           font-size: 1em;
+           small{
+               color:$dark-gray;
+           }
+       }
+        img{
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            display: block;
+            margin-right: 20px;
+        }
+    }
+      blockquote{
+          i{
+              color:$brand;
+              margin: 0 10px;
+          }
+            color: $dark-gray;
+            font-size: 1em;
+            line-height: 1.5;
+            text-transform: capitalize;
+        }
+
+@media screen and (max-width: 768px) {
+    .about-us-section{
+        display: block;
+        background-color: $light-gray;
+        padding: 50px 5% 20px 5%;
+    }
+    h2.section-title{
+        font-size: 1.5em;
+        margin-bottom: 25px;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    ul{
+    margin-top: 10px;
+    li{
+        display: inline-block;
+        &.social-link {
+            a{
+                padding:10px 10px;
+                border:1px solid $light-gray;
+                font-size: 0.7em;
+            }
+        }
+        
+        }
+    }
+
+
+    //The Right Side
+    .company-name{
+        margin-top: 20px;
+        direction: ltr;
+        h2{
+            flex: 6;
+            margin-left: 0;
+            font-size: 1em;
+            text-align: left;
+            margin-right: auto;
+            small{
+                color:$dark-gray;
+            }
+        }
+           div{
+            flex:1;
+            margin-right: 15px;
+                img{
+                    border-radius: 50%;
+                    height: 40px;
+                    width: 40px;
+                    display: block;
+                }
+            }
+        }
+        blockquote{
+            i{
+                margin: 0 7px;
+            }
+                font-size: 0.8em;
+            }
+
+}
+</style>
