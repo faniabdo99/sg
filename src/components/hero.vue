@@ -18,7 +18,7 @@ export default {
 .hero-section{
     background-size: cover;
     height: 400px;
-    padding: 100px 0 20px 5%;
+    padding: 150px 0 20px 5%;
     background: url('/icons/hero.png') center right no-repeat;
     background-size: contain;
     h1{

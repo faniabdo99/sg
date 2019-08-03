@@ -3,35 +3,43 @@
         <h2>Team</h2>
         <p>Great Team , Great Products</p>
        <div class="row">
-           <div class="col-md-4">
-               <div class="team-member">
-                <img src="/icons/abd.jpg" alt="Abd Alrahman Fani" >
-                <h3>Abd Alrahman Fani <br><small>Founder & CEO</small></h3>
+       <div class="col-md-4">
+            <div class="team-container">
+                <div class="team-member">
+                    <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
+                    <h3>Abd Alrahman Fani <br><small>Founder & CEO</small></h3>
+                </div>
                 <blockquote>
-                    Always Deliver More Than Expected <span>_Lary Page</span>
-                </blockquote>
-               </div>
-           </div>
+                    Always deliver more than expected  <br>_Larry Page
+                </blockquote>   
+            </div>
+        </div>
+
+       <div class="col-md-4">
+            <div class="team-container">
+                <div class="team-member">
+                    <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
+                    <h3>Hasan Nahleh <br><small>CO-Founder & CFO</small></h3>
+                </div>
+                <blockquote>
+                    Chaising Perfection is hard thing to do , but when you finally get there your live gets much better  <br>_Unknown
+                </blockquote>   
+            </div>
+        </div>
 
             <div class="col-md-4">
-               <div class="team-member">
-                <img src="/icons/abd.jpg" alt="Abd Alrahman Fani" >
-                <h3>Hasan Nahleh <br><small>CO-Founder & CFO</small></h3>
-                <blockquote>
-                    They Did it , So We can  <br>_Unknown
-                </blockquote>
-               </div>
+                <div class="team-container">
+                    <div class="team-member">
+                        <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
+                        <h3>Someone <br><small>Creativity Source</small></h3>
+                    </div>
+                    <blockquote>
+                        Chaising Perfection is hard thing to do , but when you finally get there your live gets much better  <br>_Unknown
+                    </blockquote>   
+                </div>
            </div>
 
-            <div class="col-md-4">
-               <div class="team-member">
-                <img src="/icons/abd.jpg" alt="Abd Alrahman Fani" >
-                <h3>Graphic Designer <br><small>Creativity Source</small></h3>
-                <blockquote>
-                    Always Deliver More Than Expected <br>_Lary Page
-                </blockquote>
-               </div>
-           </div>
+
        </div>
     </div>
 </template>
@@ -57,35 +65,46 @@ export default {
     margin-bottom: 30px;
   }
 }
-.team-member{
+.team-container{
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 25px;
     border-radius: 5px;
-    img{
-        width:90px;
-        height: 90px;
-        border-radius: 50%;
-        border:3px solid $brand;
-        display: block;
-        margin: 0 auto 30px auto;
+
+.team-member{
+    display: flex;
+    flex-basis: 0;
+    align-items: center;
+    .team-member-image{
+        flex: 2;
+        margin-right: 25px;
+        img{
+            width:90px;
+            height: 90px;
+            border-radius: 50%;
+            border:3px solid $brand;
+            display: block;
+            margin: 0 auto 30px auto;
+        }
     }
     h3{
+        flex:6;
         color:$brand;
-        text-align: center;
+        text-align: left;
         margin-bottom: 25px;
         small{
             color: $dark-gray;
             font-size:0.7em;
         }
     }
-    blockquote{
-        padding: 10px;
+}
+  blockquote{
         color:$dark-gray;
         font-size: 0.9em;
-        text-align:center;
+        text-align:left;
         font-weight: bold;
+        line-height: 1.8;
         span{
             display:block;
             text-align: right;
@@ -93,6 +112,8 @@ export default {
         }
     }
 }
+  
+
 @media screen and (max-width: 768px) {
     
 }
