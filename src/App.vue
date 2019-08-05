@@ -7,6 +7,8 @@
         <services></services>
         <team></team>
         <testos></testos>
+        <doit></doit>
+        <contact></contact>
     </div>
    
   </div>
@@ -19,10 +21,12 @@ import About from './components/about-us.vue'
 import Services from './components/services.vue'
 import Team from './components/team.vue'
 import Testos from './components/testos.vue'
+import Doit from './components/do-it.vue'
+import Contact from './components/contact.vue'
 export default {
   name: 'app',
   components: {
-    Navbar,Hero,About,Services,Team,Testos
+    Navbar,Hero,About,Services,Team,Testos,Doit,Contact
   }
 }
 </script>

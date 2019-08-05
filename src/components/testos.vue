@@ -46,7 +46,7 @@ export default {
   data:function(){
       return {
       quote: {
-          content: "Some 20 Words Fomr THe First Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .",
+          content: "  Some 20 Words Fomr THe First Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .",
           imageUrl: "/icons/abd.jpg",
           UserName: "First Quoter",
           JobTitle: "Owner @ First Company",
@@ -64,7 +64,7 @@ export default {
               document.querySelector("#second-item").classList.remove("active");
               document.querySelector("#third-item").classList.remove("active");
               //The First Quote
-             this.quote.content = "Some 20 Words Fomr THe First Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
+             this.quote.content = "  Some 20 Words Fomr THe First Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
              this.quote.imageUrl=  "/icons/abd.jpg";
              this.quote.UserName=  "First Quoter";
              this.quote.JobTitle=  "Owner @ First Company";
@@ -75,7 +75,7 @@ export default {
               document.querySelector("#first-item").classList.remove("active");
               document.querySelector("#second-item").classList.add("active");
               document.querySelector("#third-item").classList.remove("active");
-             this.quote.content = "Some 20 Words Fomr THe Second Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
+             this.quote.content = "  Some 20 Words Fomr THe Second Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
              this.quote.imageUrl=  "/icons/abd.jpg";
              this.quote.UserName=  "Second Quoter";
              this.quote.JobTitle=  "Owner @ Second Company";
@@ -87,7 +87,7 @@ export default {
               document.querySelector("#first-item").classList.remove("active");
               document.querySelector("#second-item").classList.remove("active");
               document.querySelector("#third-item").classList.add("active");
-             this.quote.content = "Some 20 Words Fomr THe Third Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
+             this.quote.content = "  Some 20 Words Fomr THe Third Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
              this.quote.imageUrl=  "/icons/abd.jpg";
              this.quote.UserName=  "Third Quoter";
              this.quote.JobTitle=  "Owner @ Third Company";
@@ -168,6 +168,8 @@ export default {
       max-height: 250px;
       i{
           color:$brand;
+          margin-right: 5px;
+          margin-left: 5px;
       }
       font-size: 2em;
       line-height: 1.8;
