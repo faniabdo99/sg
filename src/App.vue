@@ -6,6 +6,7 @@
         <about></about>
         <services></services>
         <team></team>
+        <testos></testos>
     </div>
    
   </div>
@@ -17,10 +18,11 @@ import Hero from './components/hero.vue'
 import About from './components/about-us.vue'
 import Services from './components/services.vue'
 import Team from './components/team.vue'
+import Testos from './components/testos.vue'
 export default {
   name: 'app',
   components: {
-    Navbar,Hero,About,Services,Team
+    Navbar,Hero,About,Services,Team,Testos
   }
 }
 </script>
