@@ -1,10 +1,10 @@
 <template>
     <div class="doit-section">
         <div class="row">
-            <div class="col-md-6 col-xs-6 col-sm-6">
+            <div class="col-md-6 col-xs-12 col-sm-12">
                 <img src="/icons/startup.png" alt="Startup Icon Here">
             </div>
-            <div class="col-md-6 col-xs-6 col-sm-6">
+            <div class="col-md-6 col-xs-12 col-sm-12">
                 <h2>Ready ? Go!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, delectus!</p>
                 <a href="#">Get Started</a>
@@ -57,6 +57,25 @@ export default {
     }
 }
 @media screen and (max-width: 768px) {
-
+.doit-section{
+    padding: $section-padding;
+    img{
+        display: none;
+    }
+    h2{
+        font-size: 1.6em;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-bottom: 15px;
+    }
+    a{
+        background-color: #fff;
+        padding: 15px 25px;
+        font-size: 1em;
+        margin-top: 30px;
+        width:80%;
+    }
+}
 }
 </style>

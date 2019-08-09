@@ -87,8 +87,10 @@ export default {
             background-color:$light-gray;
             border:none;
             margin-bottom:20px;
+            box-sizing: border-box;
         }
         input[type="submit"]{
+            width: 100%;
             background-color:$brand;
             color:#fff;
             font-weight: bold;
@@ -97,6 +99,30 @@ export default {
     }
 }
 @media screen and (max-width: 768px) {
+.contact-section{
+    padding: $section-padding;
+    h2 {
+        font-size: 1.5em;
+    }
+    ul{
+        li{
+            margin-bottom: 25px;
+        }
+    }
 
+
+    form{
+        width:100%;
+        .input-group{
+            position: relative;
+        }
+        input , textarea{
+            box-sizing: border-box;
+        }
+        input[type="submit"]{
+         text-align: center;
+        }
+    }
+}
 }
 </style>

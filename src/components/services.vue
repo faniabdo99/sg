@@ -185,5 +185,40 @@ export default {
   
 }
 @media screen and (max-width: 768px) {
+  .services-section {
+   padding: $section-padding-sm;
+  h2 {
+    font-size: 1.5em;
+  }
+  .card-container{
+    width: 70%;
+    padding:10px 20px;
+    .card-icon{
+        margin:10px 0;
+      i{
+        font-size: 1.2em;
+      }
+    }
+
+    .card-content{
+      h3{
+        font-size: 1em;
+      }
+      ul{
+        li{
+          margin-bottom: 10px;
+          font-size: 0.7em;
+          &::before{
+            height: 4px;
+            width:10px;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
 }
 </style>

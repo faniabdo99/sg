@@ -125,5 +125,36 @@ export default {
     }
 }
 @media screen and (max-width: 768px) {
+
+.portfolio-section{
+    padding: $section-padding-sm;
+  h2.section-title {
+    font-size: 1.5em;
+  }
+  .projects-grid{
+        grid-gap: 10px;
+    }
+    .project-view{
+        grid-column:span 1;
+        grid-row:span 1;
+        img{
+            height:120px;
+        }
+    }
+    .main-project{
+        grid-column: 1 / span 2;
+        grid-row: span 1;
+    }
+    .main-row-project{
+        grid-row: span 2;
+        grid-column: span 1;
+        img{
+            height: 100% !important;
+        }
+    }
+    a.show-more-projects-link{
+        width:45%;
+    }
+}
 }
 </style>

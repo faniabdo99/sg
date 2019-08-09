@@ -3,7 +3,7 @@
     <h2>Clients Reviews</h2>
     <p>Nice Opinions , Not Lies at all.</p>
     <div class="row">
-        <div class="col-md-4 col-xs-4 col-sm-4">
+        <div class="col-md-4 col-xs-12 col-sm-12">
             <div class="client-information">
                 <div class="client-name">
                     <div class="image-container">
@@ -20,7 +20,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-md-7 col-xs-7 col-sm-7">
+        <div class="col-md-7 col-xs-11 col-sm-11">
             <blockquote>
                 <i class="fas fa-quote-left"></i>
                 <span>{{quote.content}}</span>
@@ -179,7 +179,7 @@ export default {
       height: 250px;
       display: grid;
       grid-template-rows: repeat(5 , 50px);
-      grid-columns-rows: repeat(5 , 20%);
+      grid-template-rows: repeat(5 , 20%);
       ul{
            grid-row-start: 4;
            grid-row-end: 5;
@@ -208,5 +208,52 @@ export default {
   }
 }
 @media screen and (max-width: 768px) {
+.testos-section{
+    padding:$section-padding-sm;
+    h2 {
+    font-size: 1.5em;
+  }
+ 
+  .client-information{
+      box-sizing: border-box;
+      height: 200px;
+      padding:10px 25px;
+      width:100%;
+      margin-bottom: 25px;
+      
+      .client-name{
+          display: flex;
+          flex-basis: 0;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 20px;
+            .image-container{
+                img{
+                    width:60px;
+                    height: 60px;
+                }
+            }
+            h3{
+                font-size: 1em;
+            }
+      }
+      p.client-description{
+          line-height: 1.4;
+      }
+  }//End Client Information
+  blockquote{
+      padding:15px;
+      i{
+          color:$brand;
+          margin-right: 5px;
+          margin-left: 5px;
+      }
+      font-size: 1.2em;
+      line-height: 1.8;
+  }
+  .quotes-indicators{
+      height: 50px;
+  }
+}
 }
 </style>

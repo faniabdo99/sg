@@ -1,5 +1,4 @@
 <template>
-  <div>
       <nav :scroll="navBgOnScroll">
           <div class="brand-name">
                 <div><img src="/icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
@@ -16,8 +15,6 @@
               <li class="important-link"><a href="#">Request Someting</a></li>
           </ul>
       </nav>
-   
-  </div>
 </template>
 
 <script>
@@ -65,7 +62,7 @@ nav{
     justify-content: space-between;
     flex-basis: 0;
     align-items: center;
-    padding:15px 5%;
+    padding:25px 5%;
     z-index:999999;
     position: fixed;
     width: 90%;
@@ -84,7 +81,7 @@ nav{
         }
         b{
             display: block;
-            color:$black;
+            color:#fff;
             font-weight: bold;
         }
     }
@@ -106,7 +103,6 @@ nav{
                  border:2px solid #fff;
                  display: block;
                  border-radius:50px;
-                 background:$brand;
                  padding:14px 20px;
                   color:#fff;
                    &:hover{
@@ -119,7 +115,7 @@ nav{
           }
           a{
               transition: all ease .3s; 
-              color:$black;
+              color:#fff;
               font-weight: bold;
               text-decoration: none;
           }
@@ -140,6 +136,18 @@ nav{
         width: 86%;
         background-color:#fff;
         border-bottom: 4px solid $brand;
+         ul.links-list a , .brand-name b {
+            color:$black;
+        }
+         ul.links-list li.important-link a{
+             color:#fff;
+             background:$brand;
+            &:hover{
+                background: none;
+                border-color: $brand;
+                color:$brand;
+            }           
+        }
     }
 }
 
@@ -157,13 +165,18 @@ nav{
 
 @media screen and (max-width: 768px) {
 nav{
+    box-sizing: border-box;
     padding:10px;
     width: 100%;
     &.active{
+        box-sizing: border-box;
+        width:100%;
         padding:10px;
-        width: 100%;
         background-color: #fff;
         border-bottom:2px solid $brand;
+        ul.links-list li a{
+            color:#fff;
+        }
 }
     //The Logo and the brand name
     .brand-name{

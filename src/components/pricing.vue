@@ -3,7 +3,7 @@
       <h2 class="section-title">Pricing</h2>
       <p class="section-description">Affordable & For Everyone</p>
       <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="prcing-panel">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
@@ -29,7 +29,7 @@
               </div>
           </div>
 
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="prcing-panel">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
@@ -56,7 +56,7 @@
           </div>
 
 
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="prcing-panel">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
@@ -156,5 +156,17 @@ export default {
   }
 }
 @media screen and (max-width: 768px) {
+.pricing-section{
+    padding: $section-padding-sm;
+  h2.section-title {
+    font-size: 1.5em;
+  }
+  .prcing-panel{
+      width: 85%;
+      margin: 0 auto 15px auto;
+
+
+  }
+}
 }
 </style>

@@ -115,6 +115,28 @@ export default {
   
 
 @media screen and (max-width: 768px) {
-    
+.team-section{
+    padding: $section-padding-sm;
+  h2 {
+    font-size: 1.5em;
+  }
+}
+.team-container{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto 15px auto;
+    padding: 15px;
+.team-member{
+    .team-member-image{
+        flex: 2;
+        margin-right: 25px;
+        img{
+            width:60px;
+            height: 60px;
+        }
+    }
+ 
+}
+}
 }
 </style>
