@@ -2,7 +2,7 @@
       <nav :scroll="navBgOnScroll">
           <div class="brand-name">
                 <div><img src="/icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
-                <div><b>Semicolon<br> Group</b></div>
+                <div><b>Semicolon Group</b></div>
           </div>
           <div class="navbar-mobile-toggle">
              <a href=""><img @click.prevent="ToggleNavbar()" src="/icons/bars.png" alt="Toggle Menu List"></a>

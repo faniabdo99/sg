@@ -11,6 +11,7 @@
         <doit></doit>
         <pricing></pricing>
         <contact></contact>
+        <footer-comp></footer-comp>
     </div>
    
   </div>
@@ -27,10 +28,11 @@ import Testos from './components/testos.vue'
 import Doit from './components/do-it.vue'
 import Pricing from './components/pricing.vue'
 import Contact from './components/contact.vue'
+import FooterComp from './components/footer-comp.vue'
 export default {
   name: 'app',
   components: {
-    Navbar,Hero,About,Services,Portfolio,Team,Testos,Doit,Pricing,Contact
+    Navbar,Hero,About,Services,Portfolio,Team,Testos,Doit,Pricing,Contact,FooterComp
   }
 }
 </script>

@@ -4,7 +4,7 @@
     <p>This Section is under development , we need to find better idea and better excution .</p>
       <div class="row">
         <div class="col-md-4 col-xs-6 col-sm-6">
-          <div class="card-container">
+          <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-times"></i>
             </div>
@@ -12,17 +12,17 @@
               <h3>Branding</h3>
               <ul>
                 <li>Visual Identity</li>
-                  <li>Logo Design</li>
-                  <li>Bussnies Card</li>
-                  <li>Letter Head</li>
-                  <li>Rollups</li>
+                <li>Logo Design</li>
+                <li>Bussnies Card</li>
+                <li>Letter Head</li>
+                <li>Rollups</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="col-md-4 col-xs-6 col-sm-6">
-          <div class="card-container">
+          <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-times"></i>
             </div>
@@ -31,9 +31,9 @@
               <ul>
                 <li>Landing Page</li>
                 <li>Dynamic Sites</li>
+                <li>Custom Projects</li>
                 <li>CMS</li>
-                <li>VPS</li>
-                <li>Shared Hostings</li>
+                <li>Blog</li>
               </ul>
             </div>
           </div>
@@ -41,7 +41,7 @@
 
 
         <div class="col-md-4 col-xs-6 col-sm-6">
-          <div class="card-container">
+          <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-times"></i>
             </div>
@@ -60,7 +60,7 @@
 
 
         <div class="col-md-4 col-xs-6 col-sm-6">
-          <div class="card-container">
+          <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-times"></i>
             </div>
@@ -68,7 +68,7 @@
               <h3>Digital Mrkeitng</h3>
               <ul>
                 <li>Page Photo</li>
-                <li>Cover</li>
+                <li>Page Cover</li>
                 <li>Posters Designs</li>
                 <li>Account Supervision</li>
                 <li>Mrkeiting Campings</li>
@@ -79,7 +79,7 @@
 
 
         <div class="col-md-4 col-xs-6 col-sm-6">
-          <div class="card-container">
+          <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-times"></i>
             </div>
@@ -88,9 +88,9 @@
               <ul>
                 <li>Area Photographic</li>
                 <li>Products</li>
-                <li>Modern Stuff</li>
-                <li>Single Content</li>
-                <li>Single Content</li>
+                <li>Person Photographic</li>
+                <li>Workplace Photographic</li>
+                <li>Custom Ideas</li>
               </ul>
             </div>
           </div>
@@ -98,18 +98,18 @@
 
 
         <div class="col-md-4 col-xs-6 col-sm-6">
-          <div class="card-container">
+          <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-times"></i>
             </div>
             <div class="card-content">
-              <h3>Last Services</h3>
+              <h3>Priting</h3>
               <ul>
-                <li>Visual Identity</li>
-                <li>Logo</li>
-                <li>Single Content</li>
-                <li>Single Content</li>
-                <li>Single Content</li>
+                <li>Bussnies Cards</li>
+                <li>Letter Head</li>
+                <li>Brouchors</li>
+                <li>Papper Printing</li>
+                <li>Fabric Printing</li>
               </ul>
             </div>
           </div>

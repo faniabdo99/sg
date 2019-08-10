@@ -4,7 +4,7 @@
             <h2>Contact Us</h2>
             <p>24/7 , Always at Your Service</p>
             <div class="col-md-4 col-xs-12 col-sm-12">
-                <p class="section-description">We Provide our services all around the glob , yet we have 3 main offices based in this countries , You're always welcome to visit us at any time!</p>
+                <p class="section-description"><b>Semicolon Group</b> Provide Modern Soulotions All Around The World , But For Those Who Like The Face-to-Face Prespetive , You Can Find Us in The Adresses Below</p>
                 <ul>
                     <li><i class="fas fa-clock"></i> 24 Hours , 7 Days</li>
                     <li><i class="fas fa-map-marker"></i> 6 Of October City , Egypt</li>

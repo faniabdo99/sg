@@ -1,10 +1,10 @@
 <template>
   <div class="testos-section">
     <h2>Clients Reviews</h2>
-    <p>Nice Opinions , Not Lies at all.</p>
+    <p>Join Them , it's Your Chance!</p>
     <div class="row">
         <div class="col-md-4 col-xs-12 col-sm-12">
-            <div class="client-information">
+            <div class="client-information wow slideInLeft">
                 <div class="client-name">
                     <div class="image-container">
                      <img src="/icons/abd.jpg" alt="User Image" >
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="col-md-7 col-xs-11 col-sm-11">
-            <blockquote>
+            <blockquote class=" wow fadeIn">
                 <i class="fas fa-quote-left"></i>
                 <span>{{quote.content}}</span>
                 <i class="fas fa-quote-right"></i>
@@ -46,12 +46,12 @@ export default {
   data:function(){
       return {
       quote: {
-          content: "  Some 20 Words Fomr THe First Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .",
+          content: "  What Makes Semicolon Group Deffrint in my opinion is that they offer you ideas more that what you even can think of! Happy to Have the chance to work with them",
           imageUrl: "/icons/abd.jpg",
-          UserName: "First Quoter",
-          JobTitle: "Owner @ First Company",
-          Description: "Some Long Description here about the First person.",
-          SpecialWord: "Amaizing Stuff!",
+          UserName: "Hani Bo Qmasine",
+          JobTitle: "Owner @ Safakat Readiyah",
+          Description: "#1 Agent Of Tanmea Company , Talker & Self Imporovment Teacher and Finance Expert",
+          SpecialWord: "Outstanding Work !",
           StarsCount: 5
       }
     }// End Data Return Function
@@ -64,13 +64,13 @@ export default {
               document.querySelector("#second-item").classList.remove("active");
               document.querySelector("#third-item").classList.remove("active");
               //The First Quote
-             this.quote.content = "  Some 20 Words Fomr THe First Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .";
-             this.quote.imageUrl=  "/icons/abd.jpg";
-             this.quote.UserName=  "First Quoter";
-             this.quote.JobTitle=  "Owner @ First Company";
-             this.quote.Description=  "Some Long Description here about the First person.";
-             this.quote.SpecialWord = "Amaizing Stuff!";
-             this.quote.StarsCount = 5;
+                this.content = "  What Makes Semicolon Group Deffrint in my opinion is that they offer you ideas more that what you even can think of! Happy to Have the chance to work with them";
+                this.imageUrl = "/icons/abd.jpg";
+                this.UserName = "Hani Bo Qmasine";
+                this.JobTitle = "Owner @ Safakat Readiyah";
+                this.Description = "#1 Agent Of Tanmea Company , Talker & Self Imporovment Teacher and Finance Expert";
+                this.SpecialWord = "Outstanding Work !";
+                this.StarsCount = 5;
           }else if(id == 2){
               document.querySelector("#first-item").classList.remove("active");
               document.querySelector("#second-item").classList.add("active");

@@ -5,9 +5,9 @@
                 <img src="/icons/startup.png" alt="Startup Icon Here">
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12">
-                <h2>Ready ? Go!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, delectus!</p>
-                <a href="#">Get Started</a>
+                <h2 class="wow slideInDown">Ready to Go ?</h2>
+                <p class="wow slideInDown">it's All About How You Like to do it! Get Started!</p>
+                <a class="wow zoomIn" href="#"><i class="fas fa-rocket"></i> Get Started</a>
             </div>
         </div>
     </div>
@@ -54,6 +54,13 @@ export default {
         margin-top: 50px;
         width:30%;
         text-align: center;
+        border:2px solid #fff;
+        transition: all ease 0.3s;
+        &:hover{
+            background-color: rgba(0,0,0,0);
+            color:#fff;
+            transition: all ease 0.3s;
+        }
     }
 }
 @media screen and (max-width: 768px) {

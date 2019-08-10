@@ -2,26 +2,26 @@
     <div class="about-us-section">
         <div class="row">
                 <div class="col-md-8 col-xs-12 col-sm-12">
-                    <h2 class="section-title">About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae magnam assumenda id eius, autem harum itaque dignissimos officiis, ex odio cupiditate doloribus impedit minima inventore necessitatibus? Odio suscipit quia dolores?</p>
+                    <h2 class="wow slideInLeft section-title">About Us</h2>
+                    <p class="wow slideInLeft">Semicolon Group is a Company Based in Egypt and have multi branches around the arabic world. we provide our sevices world wide using a set of best designers & developers out there , we have been in bussnies for 7 years now and proud of our achvemnts!</p>
                     <ul>
-                        <li class="social-link facebook"><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
-                        <li class="social-link instagram"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li class="social-link twitter"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li class="wow zoomIn social-link facebook"><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
+                        <li class="wow zoomIn social-link instagram"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li class="wow zoomIn social-link twitter"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
                     </ul>
                 </div>
                 <div class="pull-left col-md-4 col-xs-12 col-sm-12">
-                    <div class="company-name">
+                    <div class="wow slideInRight company-name">
                         <div>
-                            <img src="/icons/logo.png" alt="Semicolon Group Logo">
+                            <img src="/icons/abd.jpg" alt="Abd Alrahman Fani">
                         </div>
                         <h2>Abd Arahman Fani <br><small>Founder & CEO</small></h2>
                     </div>
                         <br>
-                        <blockquote>
+                        <blockquote class="wow slideInRight">
                             <i class="fas fa-quote-left"></i> 
-                                We Like to make simple and amaizng looking identites , We're very proud of every
-                                person we served on our journy , we hope to hear soon from you !
+                                Great Products Requires Great Minds. We Like to Provide The Top Level of Products 
+                                Using Our Great Team Experince and Customer's Best Ideas !
                             <i class="fas fa-quote-right"></i> 
                         </blockquote>
                 </div>
@@ -104,6 +104,7 @@ p{
     text-align: left;
     color:$dark-gray;
     line-height: 1.5em;
+    text-transform: capitalize;
 }
 
 

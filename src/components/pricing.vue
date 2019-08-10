@@ -4,7 +4,7 @@
       <p class="section-description">Affordable & For Everyone</p>
       <div class="row">
           <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="prcing-panel">
+              <div class="prcing-panel wow fadeInLeft">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Starter</h3>
@@ -30,7 +30,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="prcing-panel">
+              <div class="prcing-panel wow fadeInDown">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Starter</h3>
@@ -57,7 +57,7 @@
 
 
           <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="prcing-panel">
+              <div class="prcing-panel wow fadeInRight">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Starter</h3>

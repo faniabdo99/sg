@@ -1,10 +1,10 @@
 <template>
     <div class="team-section">
-        <h2>Team</h2>
-        <p>Great Team , Great Products</p>
+        <h2 class="wow fadeInDown">Team</h2>
+        <p class="wow fadeInDown">Great Team , Great Products</p>
        <div class="row">
        <div class="col-md-4">
-            <div class="team-container">
+            <div class="team-container wow fadeInLeft">
                 <div class="team-member">
                     <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
                     <h3>Abd Alrahman Fani <br><small>Founder & CEO</small></h3>
@@ -16,25 +16,25 @@
         </div>
 
        <div class="col-md-4">
-            <div class="team-container">
+            <div class="team-container wow fadeInDown">
                 <div class="team-member">
                     <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
                     <h3>Hasan Nahleh <br><small>CO-Founder & CFO</small></h3>
                 </div>
                 <blockquote>
-                    Chaising Perfection is hard thing to do , but when you finally get there your live gets much better  <br>_Unknown
+                    Never Copy From Your Opponents , Copy And You Die <br>_Jack Ma
                 </blockquote>   
             </div>
         </div>
 
             <div class="col-md-4">
-                <div class="team-container">
+                <div class="team-container wow fadeInRight">
                     <div class="team-member">
                         <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
-                        <h3>Someone <br><small>Creativity Source</small></h3>
+                        <h3>Sameh Sagherjy <br><small>Graphic Designer</small></h3>
                     </div>
                     <blockquote>
-                        Chaising Perfection is hard thing to do , but when you finally get there your live gets much better  <br>_Unknown
+                        Design without a principals is no longer design , it's Art!  <br>_Google Lead Designers
                     </blockquote>   
                 </div>
            </div>

@@ -1,37 +1,38 @@
 <template>
   <section class="portfolio-section">
       <h2 class="section-title">Portfolio</h2>
-      <p class="section-description">Something We Proud Of...</p>
+      <p class="section-description">Set Of Our Feautered Projects</p>
       <div class="projects-grid">
-            <div class="project-view main-project">
-                <img src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-            </div>
-            <div class="project-view main-row-project">
-                <img src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                <div class="project-description">
-                    <h2>SEMICOLON GROUP</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">View Project</a>
+            <div class="project-view main-project wow fadeInDown">
+               <div class="project-logo">
+                   <img src="/icons/logo.png" alt="Logo">
+                   <p>Brand Name</p>
                 </div>
+                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
             </div>
-            <div class="project-view">
-                <img src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                <div class="project-description">
-                    <h2>SEMICOLON GROUP</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">View Project</a>
+            <div class="project-view main-row-project wow fadeInRight">
+                <div class="project-logo">
+                   <img src="/icons/logo.png" alt="Logo">
+                   <p>Brand Name</p>
                 </div>
+                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
             </div>
-            <div class="project-view">
-                <img src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                <div class="project-description">
-                    <h2>SEMICOLON GROUP</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">View Project</a>
+            <div class="project-view wow fadeInUp">
+                <div class="project-logo">
+                   <img src="/icons/logo.png" alt="Logo">
+                   <p>Brand Name</p>
                 </div>
+                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
+            </div>
+            <div class="project-view wow fadeInUp">
+                <div class="project-logo">
+                   <img src="/icons/logo.png" alt="Logo">
+                   <p>Brand Name</p>
+                </div>
+                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
             </div>
       </div> <!-- End Grid View -->
-      <a class="show-more-projects-link" href="#">Show More Projects</a>
+      <a class="show-more-projects-link wow zoomIn" href="#">See All Projects</a>
   </section>
 </template>
 
@@ -66,35 +67,38 @@ export default {
     .project-view{
         grid-column:span 1;
         grid-row:span 1;
-        img{
-            filter: brightness(80%);
+        position: relative;
+        
+        img.project-image{
+            transition: all ease 0.3s;
+            filter: brightness(60%);
             width:100%;
             height:280px;
+            border-radius: 4px;
         }
-        .project-description{
+        .project-logo{
+            position:absolute;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            flex-basis: 0;
+            padding:25px;
             box-sizing: border-box;
-            background-color:$brand;
-            color: #fff;
-            padding:25px 20px;
-            display:none;
-            h2{
-                font-size: 1em;
-                margin-bottom: 10px;
-            }
             p{
-                font-size:0.9em;
-                margin-bottom: 20px;
-            }
-            a{
-                background-color: #fff;
-                color: $brand;
-                text-decoration: none;
-                font-size: 0.8em;
-                border-radius: 2px;
-                padding: 10px;
-                display: block;
-                text-align: center;
+                color: #fff;
                 font-weight: bold;
+                font-size: 1.5em;
+            }
+            img{
+                width: 60px;
+                height: 60px;
+                margin-right: 20px;
+            }
+        }
+        &:hover{
+            img.project-image{
+                filter: brightness(10%);
+                transition: all ease 0.3s;
             }
         }
     }
@@ -103,10 +107,9 @@ export default {
         grid-row: span 1;
     }
     .main-row-project{
-        border:2px solid red;
         grid-row: span 2;
         grid-column: span 1;
-        img{
+        img.project-image{
             height: 100% !important;
         }
     }
@@ -114,6 +117,7 @@ export default {
         background-color: $brand;
         padding: 15px;
         border-radius: 4px;
+        border:2px solid $brand;
         color: #fff;
         font-weight: bold;
         display: block;
@@ -121,7 +125,13 @@ export default {
         width:16%;
         text-align:center;
         text-decoration: none;
-        font-size: 0.8em;
+        //font-size: 0.8em;
+        transition: all ease 0.3s;
+        &:hover{
+            background-color: rgba(0,0,0,0);
+            color:$brand;
+            transition: all ease 0.3s;
+        }
     }
 }
 @media screen and (max-width: 768px) {
