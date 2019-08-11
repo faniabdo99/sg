@@ -2,10 +2,10 @@
     <div class="hero-section">
         <div class="hero-section-content">
             <div class="col-md-6 col-xs-12 col-sm-12">
-                <h1 class="wow fadeInLeft">Get Your Brand Ready!</h1>
-                <p class="wow fadeInLeft"><b>Semicolon Group</b> is the Right Place to Begin Your Brand Success Journy! We Provide Modern Solutions For Modern Problems .</p>
+                <h1 class="wow fadeInLeft">Digitize Your Brand! </h1>
+                <p class="wow fadeInLeft"><b>Semicolon Group</b> will turn your vision into a reality, allowing it to be shared to the world.</p>
                 <ul class="hero-links-list">
-                    <li class="wow fadeInDown hero-button"><a href="#">Portfolio</a></li>
+                    <li class="wow fadeInDown hero-button"><a href="#">Our Portfolio</a></li>
                     <li class="wow fadeInDown" ><a href="#"><i class="fas fa-question"></i> About Us </a></li>
                 </ul>
             </div>

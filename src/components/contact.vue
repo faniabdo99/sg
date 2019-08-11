@@ -16,9 +16,9 @@
             </div>
             <div class="col-md-8 col-xs-12 col-sm-12">
                 <form action="#" method="post">
-                    <div class="input-group"><i class="fas fa-user"></i><input type="text" name="name" placeholder="Enter Your Name"></div>
-                     <div class="input-group"><i class="fas fa-phone"></i><input type="text" name="email" placeholder="Phone Number Or Email"></div>
-                     <div class="input-group"><i class="fas fa-envelope"></i><textarea name="message" placeholder="Surprise us !" cols="30" rows="10"></textarea></div>
+                    <div class="input-group"><i class="fas fa-user"></i><input type="text" name="name" placeholder="Full Name"></div>
+                     <div class="input-group"><i class="fas fa-phone"></i><input type="text" name="email" placeholder="Contact Information (Phone Number Or Email)"></div>
+                     <div class="input-group"><i class="fas fa-envelope"></i><textarea name="message" placeholder="Message" cols="30" rows="10"></textarea></div>
                     <input type="submit" value="Send" name="send">
                 </form>
             </div>

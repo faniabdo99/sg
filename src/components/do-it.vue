@@ -6,7 +6,7 @@
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12">
                 <h2 class="wow slideInDown">Ready to Go ?</h2>
-                <p class="wow slideInDown">it's All About How You Like to do it! Get Started!</p>
+                <p class="wow slideInDown">With your creative visions and our artistic execution, your brand is bound to succeed!</p>
                 <a class="wow zoomIn" href="#"><i class="fas fa-rocket"></i> Get Started</a>
             </div>
         </div>

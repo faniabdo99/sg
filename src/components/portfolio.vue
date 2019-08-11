@@ -1,7 +1,7 @@
 <template>
   <section class="portfolio-section">
       <h2 class="section-title">Portfolio</h2>
-      <p class="section-description">Set Of Our Feautered Projects</p>
+      <p class="section-description">A gallery containing a set of our featured projects </p>
       <div class="projects-grid">
             <div class="project-view main-project wow fadeInDown">
                <div class="project-logo">

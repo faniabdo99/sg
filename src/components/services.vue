@@ -1,6 +1,6 @@
 <template>
   <div class="services-section">
-    <h2>What We Do</h2>
+    <h2>Our Services</h2>
     <p>This Section is under development , we need to find better idea and better excution .</p>
       <div class="row">
         <div class="col-md-4 col-xs-6 col-sm-6">

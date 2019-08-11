@@ -1,7 +1,7 @@
 <template>
     <div class="team-section">
-        <h2 class="wow fadeInDown">Team</h2>
-        <p class="wow fadeInDown">Great Team , Great Products</p>
+        <h2 class="wow fadeInDown">Meet Our Team</h2>
+        <p class="wow fadeInDown">Get to know the talented individuals who power Semicolon Group</p>
        <div class="row">
        <div class="col-md-4">
             <div class="team-container wow fadeInLeft">
@@ -10,7 +10,7 @@
                     <h3>Abd Alrahman Fani <br><small>Founder & CEO</small></h3>
                 </div>
                 <blockquote>
-                    Always deliver more than expected  <br>_Larry Page
+                    Always deliver more than expected.<br>― Larry Page
                 </blockquote>   
             </div>
         </div>
@@ -22,7 +22,7 @@
                     <h3>Hasan Nahleh <br><small>CO-Founder & CFO</small></h3>
                 </div>
                 <blockquote>
-                    Never Copy From Your Opponents , Copy And You Die <br>_Jack Ma
+                    Without ambition one starts nothing. Without work one finishes nothing. The prize will not be sent to you. You have to win it.<br>― Ralph Waldo Emerson
                 </blockquote>   
             </div>
         </div>
@@ -34,7 +34,7 @@
                         <h3>Sameh Sagherjy <br><small>Graphic Designer</small></h3>
                     </div>
                     <blockquote>
-                        Design without a principals is no longer design , it's Art!  <br>_Google Lead Designers
+                        Design without a principals is no longer design , it's Art!  <br>― Google Lead Designers
                     </blockquote>   
                 </div>
            </div>

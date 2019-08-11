@@ -3,7 +3,7 @@
         <div class="row">
                 <div class="col-md-8 col-xs-12 col-sm-12">
                     <h2 class="wow slideInLeft section-title">About Us</h2>
-                    <p class="wow slideInLeft">Semicolon Group is a Company Based in Egypt and have multi branches around the arabic world. we provide our sevices world wide using a set of best designers & developers out there , we have been in bussnies for 7 years now and proud of our achvemnts!</p>
+                    <p class="wow slideInLeft">Semicolon Group is an internet startup company focused on providing top quality services for clients worldwide. Despite being new to the market as a company, our team members are actually veterans of the industry, with years of experience in their respective fields. </p>
                     <ul>
                         <li class="wow zoomIn social-link facebook"><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
                         <li class="wow zoomIn social-link instagram"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
