@@ -7,18 +7,18 @@
               <div class="prcing-panel wow fadeInLeft">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-globe"></i> Starter</h3>
+                          <h3 class="plan-title"><i class="fas fa-globe"></i> Startup</h3>
                       </div>
                       <div class="plan-price">
-                          <p>500$</p> <span>One Time Payment</span>
+                          <p>250$</p> <span>One Time Payment</span>
                       </div>
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> Bussnies Card Design</li>
+                            <li><i class="fas fa-check"></i> 100 Bussnies Card</li>
                             <li><i class="fas fa-check"></i> Website & Blog</li>
-                            <li><i class="fas fa-check"></i> Marketing Plans</li>
-                            <li><i class="fas fa-check"></i> Paid Marketing Campings</li>
+                            <li><i class="fas fa-times"></i> Marketing Plans</li>
+                            <li><i class="fas fa-times"></i> Paid Marketing Campings</li>
                             <li><i class="fas fa-check"></i> SEO Foucsed</li>
                         </ul>
                         <hr>
@@ -33,7 +33,7 @@
               <div class="prcing-panel wow fadeInDown">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-globe"></i> Starter</h3>
+                          <h3 class="plan-title"><i class="fas fa-globe"></i> Meduim</h3>
                       </div>
                       <div class="plan-price">
                           <p>500$</p> <span>One Time Payment</span>
@@ -41,10 +41,10 @@
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> Bussnies Card Design</li>
+                            <li><i class="fas fa-check"></i> Identity Printing (100PC Each)</li>
                             <li><i class="fas fa-check"></i> Website & Blog</li>
                             <li><i class="fas fa-check"></i> Marketing Plans</li>
-                            <li><i class="fas fa-check"></i> Paid Marketing Campings</li>
+                            <li><i class="fas fa-times"></i> Paid Marketing Campings</li>
                             <li><i class="fas fa-check"></i> SEO Foucsed</li>
                         </ul>
                         <hr>
@@ -60,15 +60,15 @@
               <div class="prcing-panel wow fadeInRight">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-globe"></i> Starter</h3>
+                          <h3 class="plan-title"><i class="fas fa-globe"></i> Big Boy</h3>
                       </div>
                       <div class="plan-price">
-                          <p>500$</p> <span>One Time Payment</span>
+                          <p>800$</p> <span>One Time Payment</span>
                       </div>
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> Bussnies Card Design</li>
+                            <li><i class="fas fa-check"></i> Identity Printing (1000 PC Each)</li>
                             <li><i class="fas fa-check"></i> Website & Blog</li>
                             <li><i class="fas fa-check"></i> Marketing Plans</li>
                             <li><i class="fas fa-check"></i> Paid Marketing Campings</li>

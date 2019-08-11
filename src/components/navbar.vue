@@ -5,15 +5,17 @@
                 <div><b>Semicolon Group</b></div>
           </div>
           <div class="navbar-mobile-toggle">
-             <a href=""><img @click.prevent="ToggleNavbar()" src="/icons/bars.png" alt="Toggle Menu List"></a>
+             <a @click.prevent="ToggleNavbar()"><i class="fas fa-bars"></i></a>
           </div>
-          <ul class="links-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li class="important-link"><a href="#">Request Someting</a></li>
-          </ul>
+          <transition name="fade">
+            <ul class="links-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="important-link"><a href="#">Request Someting</a></li>
+            </ul>
+          </transition>
       </nav>
 </template>
 
@@ -25,11 +27,8 @@ export default {
           let navbarList = document.querySelector(".links-list");
           if(navbarList.classList.contains('active')){
               navbarList.classList.remove("active");
-              navbarList.style.display= "none";
           }else{
               navbarList.classList.add("active");
-              navbarList.style.display= "block";
-
           }
 },
       //End Toggle Navbar Function Here .
@@ -56,6 +55,12 @@ created () {
 <style lang="scss" scoped>
 @import "../assets/sass/vars.scss";
 //The nav Container
+.fade-leave-active , .fade-enter-active{
+    transition: all ease 0.5s;
+}
+.fade-enter-active {
+    transition-delay: 0.5s;
+}
 nav{
     transition: all ease-in-out 0.4s;
     display:flex;
@@ -87,7 +92,6 @@ nav{
     }
     .navbar-mobile-toggle{
         display: none;
-        cursor: pointer;
     }
     //Navigation Links
     ul.links-list{
@@ -127,8 +131,9 @@ nav{
           }
         }        
         &.active{
-            animation: navbarAnimation 0.5s;
+            opacity:1;
         }
+
     }
 
       &.active{
@@ -151,18 +156,6 @@ nav{
     }
 }
 
-
-
-/*KeyFrames Animation Fuckers :D */
-@keyframes navbarAnimation {
-    from{
-        top: -100%;
-    }
-    to{
-        top: 62px;
-    }
-}
-
 @media screen and (max-width: 768px) {
 nav{
     box-sizing: border-box;
@@ -177,6 +170,11 @@ nav{
         ul.links-list li a{
             color:#fff;
         }
+        .navbar-mobile-toggle{
+            i{
+                color:$brand;
+            }
+        }
 }
     //The Logo and the brand name
     .brand-name{
@@ -190,26 +188,29 @@ nav{
         }
     }
     .navbar-mobile-toggle{
-        display: block;
         flex:3;
+        display: block;
         margin-left: auto;
         text-align: right;
-        padding-right: 25px;
-        img{
-            width: 30px;
-            height: 30px;
+        padding-right: 25px;       
+        i{
+            font-size:1.5em;
             cursor: pointer;
             z-index: 111111;
+            color:#fff;
         }
     }
     //Navigation Links
     ul.links-list{
         position: absolute;
-        display: none;
+        display: block;
+        opacity: 0;
         background-color: $brand;
         width: 100%;
         top: 62px;
         left:0;
+        transition: all ease 0.5s;
+    
         
         li{
           padding:10px;

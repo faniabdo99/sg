@@ -147,8 +147,25 @@ export default {
     .project-view{
         grid-column:span 1;
         grid-row:span 1;
-        img{
-            height:120px;
+        img.project-image{
+            height:100px;
+        }
+        .project-logo{
+            position:absolute;
+            z-index: 999;
+            display: flex;
+            align-items: center;
+            flex-basis: 0;
+            padding:5px;
+            box-sizing: border-box;
+            p{
+                font-size: 1em;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
         }
     }
     .main-project{
@@ -158,7 +175,7 @@ export default {
     .main-row-project{
         grid-row: span 2;
         grid-column: span 1;
-        img{
+        img.project-image{
             height: 100% !important;
         }
     }
