@@ -1,14 +1,16 @@
 <template>
-    <div class="about-us-section">
+    <section id="about" class="about-us-section">
         <div class="row">
                 <div class="col-md-8 col-xs-12 col-sm-12">
-                    <h2 class="wow slideInLeft section-title">About Us</h2>
-                    <p class="wow slideInLeft">Semicolon Group is an internet startup company focused on providing top quality services for clients worldwide. Despite being new to the market as a company, our team members are actually veterans of the industry, with years of experience in their respective fields. </p>
-                    <ul>
-                        <li class="wow zoomIn social-link facebook"><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
-                        <li class="wow zoomIn social-link instagram"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li class="wow zoomIn social-link twitter"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-                    </ul>
+                    <div class="about-us-text">
+                        <h2 class="wow slideInLeft section-title">About Us</h2>
+                        <p class="wow slideInLeft"><b>Semicolon Group</b> is an internet startup company focused on providing top quality services for clients worldwide. Despite being new as a company, our team members are actually veterans of the industry, with years of experience in their respective fields. </p>
+                        <ul>
+                            <li class="wow zoomIn social-link facebook"><a href="#"><i class="fab fa-facebook"></i> facebook</a></li>
+                            <li class="wow zoomIn social-link instagram"><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li class="wow zoomIn social-link twitter"><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="pull-left col-md-4 col-xs-12 col-sm-12">
                     <div class="wow slideInRight company-name">
@@ -26,7 +28,7 @@
                         </blockquote>
                 </div>
     </div>
-</div>
+</section>
 </template>
 <script>
 export default {
@@ -40,6 +42,9 @@ export default {
     display: block;
     background-color: $light-gray;
     padding: $section-padding;
+}
+.about-us-text{
+    width: 95%;
 }
 ul{
     margin-top: 10px;
@@ -104,7 +109,6 @@ p{
     text-align: left;
     color:$dark-gray;
     line-height: 1.5em;
-    text-transform: capitalize;
 }
 
 

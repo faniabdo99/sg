@@ -1,5 +1,5 @@
 <template>
-  <div class="services-section">
+  <section id="services" class="services-section">
     <h2>Our Services</h2>
     <p>This Section is under development , we need to find better idea and better excution .</p>
       <div class="row">
@@ -115,7 +115,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 </template>
 
 <script>

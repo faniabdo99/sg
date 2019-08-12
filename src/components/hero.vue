@@ -1,12 +1,12 @@
 <template>
-    <div class="hero-section">
+    <section id="top" class="hero-section">
         <div class="hero-section-content">
             <div class="col-md-6 col-xs-12 col-sm-12">
                 <h1 class="wow fadeInLeft">Digitize Your Brand ! </h1>
                 <p class="wow fadeInLeft"><b>Semicolon Group</b> will turn your vision into a reality , allowing it to be shared to the world.</p>
                 <ul class="hero-links-list">
-                    <li class="wow fadeInDown hero-button"><a href="#">Our Portfolio</a></li>
-                    <li class="wow fadeInDown" ><a href="#"><i class="fas fa-question"></i> About Us </a></li>
+                    <li class="wow fadeInDown hero-button"><a href="#portfolio" v-smooth-scroll="{ duration: 1000, offset: -80 }" >Our Portfolio</a></li>
+                    <li class="wow fadeInDown" ><a href="#about" v-smooth-scroll="{ duration: 1000, offset: -80 }" ><i class="fas fa-question"></i> About Us </a></li>
                 </ul>
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12">
@@ -14,7 +14,7 @@
             </div>
             <span class="hero-mouse"><i class="fas fa-circle"></i></span>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 export default {

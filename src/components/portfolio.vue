@@ -1,35 +1,43 @@
 <template>
-  <section class="portfolio-section">
+  <section id="portfolio" class="portfolio-section">
       <h2 class="section-title">Portfolio</h2>
       <p class="section-description">A gallery containing a set of our featured projects </p>
       <div class="projects-grid">
             <div class="project-view main-project wow fadeInDown">
+                <a href="project">
                <div class="project-logo">
                    <img src="/icons/logo.png" alt="Logo">
                    <p>Brand Name</p>
                 </div>
                 <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
+                </a>
             </div>
             <div class="project-view main-row-project wow fadeInRight">
+                <a href="project">
                 <div class="project-logo">
                    <img src="/icons/logo.png" alt="Logo">
                    <p>Brand Name</p>
                 </div>
                 <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
+                </a>
             </div>
             <div class="project-view wow fadeInUp">
+                <a href="project">
                 <div class="project-logo">
                    <img src="/icons/logo.png" alt="Logo">
                    <p>Brand Name</p>
                 </div>
                 <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
+                </a>
             </div>
             <div class="project-view wow fadeInUp">
+                <a href="project">
                 <div class="project-logo">
                    <img src="/icons/logo.png" alt="Logo">
                    <p>Brand Name</p>
                 </div>
                 <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
+                </a>
             </div>
       </div> <!-- End Grid View -->
       <a class="show-more-projects-link wow zoomIn" href="#">See All Projects</a>

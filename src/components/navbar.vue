@@ -9,10 +9,11 @@
           </div>
           <transition name="fade">
             <ul class="links-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#about" v-smooth-scroll="{ duration: 1000, offset: -80 }">About</a></li>
+                <li><a href="#services" v-smooth-scroll="{ duration: 1200, offset: -85 }">Services</a></li>
+                <li><a href="#portfolio" v-smooth-scroll="{ duration: 1500, offset: -40 }">Portfolio</a></li>
+                <li><a href="#pricing" v-smooth-scroll="{ duration: 2400, offset: -80 }">Pricing</a></li>
+                <li><a href="#contact" v-smooth-scroll="{ duration: 2800, offset: -80 }">Contact Us</a></li>
                 <li class="important-link"><a href="#">Request Someting</a></li>
             </ul>
           </transition>

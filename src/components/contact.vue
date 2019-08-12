@@ -1,5 +1,5 @@
 <template>
-    <div class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="row">
             <h2>Contact Us</h2>
             <p>24/7 , Always at Your Service</p>
@@ -23,7 +23,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 export default {
