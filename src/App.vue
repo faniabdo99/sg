@@ -43,14 +43,7 @@ export default {
 
 <style lang="scss">
 @import "./assets/sass/vars";
-body::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgab(0,0,0,0);
-}
-body::-webkit-scrollbar-thumb {
-  background-color: $brand;
-  border-radius:50px;
-}
+
 .back-to-top{
   opacity: 0;
   transform: translateX(100px);

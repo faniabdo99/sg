@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-      <navbar></navbar>
+    <navbar></navbar>
       <router-view></router-view>
-       <footer-comp></footer-comp>
+    <footer-comp></footer-comp>
   </div>
 </template>
 
@@ -20,5 +20,13 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import "./assets/sass/vars";
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgab(0,0,0,0);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $brand;
+  border-radius:50px;
+}
 </style>

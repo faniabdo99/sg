@@ -287,4 +287,92 @@ export default {
         font-size: 1.1em;
     }
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+.gallery-bg{
+    .gallery-content{
+        width:90%;
+        height: 90%;
+        h2{
+        font-size: 1.3em;
+        margin-bottom: 5px;
+         }
+        img{
+            height: 60%;
+        }
+    }
+ 
+}
+.project-items{
+    .item{
+        h4{
+            font-size: 1em;
+        }
+    }
+    .logo{
+        grid-column:  1 / -1;
+    }
+    .logo-inverse{
+        grid-column: 1 / -1;
+    }
+    .letter-head{
+        grid-column: 1 / -1;
+    }
+    .bussnies-card{
+        grid-column: 1 / -1; 
+    }
+    .website{
+        grid-column: 1 / -1; 
+    }
+    .social-post{
+        grid-column: 1 / -1;
+    }
+}
+.brand-cover{
+    height: 100vh;
+    .brand-cover-content{
+        padding : 25vh 10vw 0 10vw;
+    }
+    .brand-main-info{
+        .logo-container{
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+        h1{
+            font-size: 1.5em;
+        }
+    }
+    p.brand-information{
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    a.view-project{
+        width:80%;
+    }
+    ul.brand-images-list{
+        margin-top: 40px;
+        li{
+            img{
+                width:40px;
+                height:40px;
+            }
+        }
+    }
+}
+.brand-concept{
+    padding:$section-padding-sm;
+    h2{
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+}
 </style>

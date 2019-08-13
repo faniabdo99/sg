@@ -1,9 +1,9 @@
 <template>
       <nav :scroll="navBgOnScroll">
-          <div class="brand-name">
+        <a href="/" class="brand-name">
                 <div><img src="/icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
-                <div><b>Semicolon Group</b></div>
-          </div>
+                <div><b><span>S</span>emicolon Group</b></div>
+          </a>
           <div class="navbar-mobile-toggle">
              <a @click.prevent="ToggleNavbar()"><i class="fas fa-bars"></i></a>
           </div>
@@ -56,12 +56,6 @@ created () {
 <style lang="scss" scoped>
 @import "../assets/sass/vars.scss";
 //The nav Container
-.fade-leave-active , .fade-enter-active{
-    transition: all ease 0.5s;
-}
-.fade-enter-active {
-    transition-delay: 0.5s;
-}
 nav{
     transition: all ease-in-out 0.4s;
     display:flex;
@@ -79,6 +73,7 @@ nav{
         justify-content: space-around;
         align-items: center;
         flex:1;
+        text-decoration: none;
         img{
             display: block;
             width:50px;
@@ -100,6 +95,8 @@ nav{
         float:right;
         flex:5;
         text-align:right;
+        transition:all ease 0.5s;
+
         li{
           display: inline-block;
           margin-left:5%;
@@ -109,12 +106,19 @@ nav{
                  display: block;
                  border-radius:50px;
                  padding:14px 20px;
-                  color:#fff;
+                 color:#fff;
+                 &::after{
+                     width:0;
+                     height:0;
+                     margin:0;
+                 }
+             
                    &:hover{
                      background-color: #fff;
                      border-color: $brand;
                      transition: all ease .3s;
                      color:$brand;
+               
                    }
               }
           }
@@ -123,16 +127,34 @@ nav{
               color:#fff;
               font-weight: bold;
               text-decoration: none;
+                &::after{
+                    content: "";
+                    display: block;
+                    width:50%;
+                    height:2px;
+                    margin:4px auto 0 auto;
+
+                    background-color: #fff;
+                    border-radius:5px;
+                    transform: translateY(15px);
+                    opacity:0;
+                    transition: all ease .3s;
+                }
           }
           &:hover{
               a{
-                  transition: all ease .3s;
-                  color:$brand;
+                  &::after{
+                      transition: all ease .3s;
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
               }
           }
         }        
         &.active{
             opacity:1;
+            display: block;
+            transition:all ease 0.5s;
         }
 
     }
@@ -204,13 +226,13 @@ nav{
     //Navigation Links
     ul.links-list{
         position: absolute;
-        display: block;
+        display: none;
         opacity: 0;
         background-color: $brand;
         width: 100%;
         top: 62px;
         left:0;
-        transition: all ease 0.5s;
+        transition:all ease 0.5s;
     
         
         li{

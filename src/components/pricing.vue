@@ -4,7 +4,7 @@
       <p class="section-description">Affordable & For Everyone</p>
       <div class="row">
           <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="prcing-panel wow fadeInLeft">
+              <div class="prcing-panel pricing-panel-low wow fadeInLeft">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Startup</h3>
@@ -30,7 +30,7 @@
           </div>
 
           <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="prcing-panel wow fadeInDown">
+              <div class="prcing-panel pricing-panel-med wow fadeInDown">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Meduim</h3>
@@ -57,7 +57,7 @@
 
 
           <div class="col-md-4 col-sm-12 col-xs-12">
-              <div class="prcing-panel wow fadeInRight">
+              <div class="prcing-panel pricing-panel-high wow fadeInRight">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Big Boy</h3>
@@ -107,11 +107,45 @@ export default {
     color: $dark-gray;
     margin-bottom: 30px;
   }
-
+.pricing-panel-low{
+    background: rgb(28,107,185);
+    background: -moz-linear-gradient(180deg, rgba(28,107,185,1) 0%, rgba(70,180,181,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(28,107,185,1) 0%, rgba(70,180,181,1) 100%);
+    background: linear-gradient(180deg, rgba(28,107,185,1) 0%, rgba(70,180,181,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c6bb9",endColorstr="#46b4b5",GradientType=1);
+    .plan-price{
+        p{
+            color:rgb(28,107,185);
+        }
+    }
+}
+.pricing-panel-med{
+    background: rgb(77,72,181);
+    background: -moz-linear-gradient(180deg, rgba(77,72,181,1) 0%, rgba(27,23,80,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(77,72,181,1) 0%, rgba(27,23,80,1) 100%);
+    background: linear-gradient(180deg, rgba(77,72,181,1) 0%, rgba(27,23,80,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d48b5",endColorstr="#1b1750",GradientType=1);
+    .plan-price{
+        p{
+            color:rgb(77,72,181);
+        }
+    }
+}
+.pricing-panel-high{
+    background: rgb(14,24,116);
+    background: -moz-linear-gradient(180deg, rgba(14,24,116,1) 0%, rgba(65,80,130,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(14,24,116,1) 0%, rgba(65,80,130,1) 100%);
+    background: linear-gradient(180deg, rgba(14,24,116,1) 0%, rgba(65,80,130,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e1874",endColorstr="#415082",GradientType=1);
+    .plan-price{
+        p{
+            color:rgb(14,24,116);
+        }
+    }
+}
   .prcing-panel{
       width: 70%;
       margin: auto;
-      background-color: $brand;
       border-radius: 3px;
       .padding-box{
           padding:30px;
@@ -130,7 +164,6 @@ export default {
             font-weight: bold;
             font-size: 1.5em;
             margin-bottom: 5px;
-            color:$brand;
         }
         span{
             color: $dark-gray;

@@ -40,7 +40,7 @@
                 </a>
             </div>
       </div> <!-- End Grid View -->
-      <a class="show-more-projects-link wow zoomIn" href="#">See All Projects</a>
+      <a class="show-more-projects-link wow zoomIn" href="projects">See All Projects</a>
   </section>
 </template>
 

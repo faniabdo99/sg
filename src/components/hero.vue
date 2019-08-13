@@ -9,7 +9,7 @@
                     <li class="wow fadeInDown" ><a href="#about" v-smooth-scroll="{ duration: 1000, offset: -80 }" ><i class="fas fa-question"></i> About Us </a></li>
                 </ul>
             </div>
-            <div class="col-md-6 col-xs-12 col-sm-12">
+            <div class="col-md-6 col-xs-12 col-sm-12 pull-left">
               <img class="wow fadeInRight hero-image" src="/icons/hero-sub-image.png" alt="Hero Image">
             </div>
             <span class="hero-mouse"><i class="fas fa-circle"></i></span>
@@ -133,6 +133,7 @@ export default {
 .hero-section{
     height: 100vh;
     width: 100%;
+    position: relative;
     .hero-section-content{
         height: 100vh;
         width:100%;
