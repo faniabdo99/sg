@@ -31,16 +31,16 @@
                 </a>
             </div>
             <div class="project-view wow fadeInUp">
-                <a href="project">
+                <router-link to="project">
                 <div class="project-logo">
                    <img src="/icons/logo.png" alt="Logo">
                    <p>Brand Name</p>
                 </div>
                 <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                </a>
+                </router-link>
             </div>
       </div> <!-- End Grid View -->
-      <a class="show-more-projects-link wow zoomIn" href="projects">See All Projects</a>
+      <router-link class="show-more-projects-link wow zoomIn" to="projects#top">See All Projects</router-link>
   </section>
 </template>
 

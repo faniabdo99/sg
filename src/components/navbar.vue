@@ -1,20 +1,20 @@
 <template>
       <nav :scroll="navBgOnScroll">
-        <a href="/" class="brand-name">
+        <router-link to="/" class="brand-name">
                 <div><img src="/icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
                 <div><b><span>S</span>emicolon Group</b></div>
-          </a>
+        </router-link>
           <div class="navbar-mobile-toggle">
              <a @click.prevent="ToggleNavbar()"><i class="fas fa-bars"></i></a>
           </div>
           <transition name="fade">
             <ul class="links-list">
-                <li><a href="#about" v-smooth-scroll="{ duration: 1000, offset: -80 }">About</a></li>
-                <li><a href="#services" v-smooth-scroll="{ duration: 1200, offset: -85 }">Services</a></li>
-                <li><a href="#portfolio" v-smooth-scroll="{ duration: 1500, offset: -40 }">Portfolio</a></li>
-                <li><a href="#pricing" v-smooth-scroll="{ duration: 2400, offset: -80 }">Pricing</a></li>
-                <li><a href="#contact" v-smooth-scroll="{ duration: 2800, offset: -80 }">Contact Us</a></li>
-                <li class="important-link"><a href="#">Request Someting</a></li>
+                <li><a href="/#about" v-smooth-scroll="{ duration: 1000, offset: -80 }">About</a></li>
+                <li><a href="/#services" v-smooth-scroll="{ duration: 1200, offset: -85 }">Services</a></li>
+                <li><a href="/#portfolio" v-smooth-scroll="{ duration: 1500, offset: -40 }">Portfolio</a></li>
+                <li><a href="/#pricing" v-smooth-scroll="{ duration: 2400, offset: -80 }">Pricing</a></li>
+                <li><a href="/#contact" v-smooth-scroll="{ duration: 2800, offset: -80 }">Contact Us</a></li>
+                <li class="important-link"><router-link to="request">Free Cosnultation</router-link></li>
             </ul>
           </transition>
       </nav>
