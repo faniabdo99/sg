@@ -30,13 +30,12 @@ export default {
 }
 .fade-enter , .fade-leave-to{
     opacity: 0;
-    transform: scale(0);
+    transform: translateY(20px);
 }
 // From              To
 .fade-enter-to, .fade-leave /* .fade-leave-active below version 2.1.8 */ {
   opacity: 1;
-  transform: scale(1);
-
+  transform: translateY(0);
 }
 
 body::-webkit-scrollbar {
@@ -46,5 +45,8 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: $brand;
   border-radius:50px;
+}
+body::-webkit-scrollbar:horizontal{
+  height: 0px;
 }
 </style>

@@ -12,6 +12,8 @@ import SingleProject from './components/pages/single-project'
 import AllProjects from './components/pages/all-projects'
 import RequestService from './components/pages/request-service'
 import App from './App'
+//Projects Components
+import Naqrah from './components/pages/projects/naqrah'
 
 /* Init The Core Packages */
 Vue.use(vueSmoothScroll)
@@ -26,6 +28,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   routes : [
     {path:'/' , component:App},
+    {path:'/naqrah' , component:Naqrah},
     {path:'/project' , component:SingleProject},
     {path:'/projects' , component:AllProjects},
     {path:'/request' , component:RequestService}

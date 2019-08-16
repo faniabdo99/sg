@@ -4,13 +4,12 @@
       <p class="section-description">A gallery containing a set of our featured projects </p>
       <div class="projects-grid">
             <div class="project-view main-project wow fadeInDown">
-                <a href="project">
+                <router-link to="naqrah">
                <div class="project-logo">
-                   <img src="/icons/logo.png" alt="Logo">
-                   <p>Brand Name</p>
+                   <img src="/icons/projects/naqrah/logo.png" alt="Naqrah Logo">
                 </div>
-                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                </a>
+                <img class="project-image" src="/icons/projects/naqrah/background.png" alt="Naqrah Idenitiy Background">
+                </router-link>
             </div>
             <div class="project-view main-row-project wow fadeInRight">
                 <a href="project">
@@ -79,7 +78,7 @@ export default {
         
         img.project-image{
             transition: all ease 0.3s;
-            filter: brightness(60%);
+            filter: brightness(80%);
             width:100%;
             height:280px;
             border-radius: 4px;
@@ -92,14 +91,9 @@ export default {
             flex-basis: 0;
             padding:25px;
             box-sizing: border-box;
-            p{
-                color: #fff;
-                font-weight: bold;
-                font-size: 1.5em;
-            }
             img{
-                width: 60px;
-                height: 60px;
+                width: 100px;
+                height: 90px;
                 margin-right: 20px;
             }
         }
