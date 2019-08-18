@@ -10,7 +10,7 @@
         <pricing></pricing>
         <contact></contact>
         <a href="#top" class="back-to-top" v-smooth-scroll="{ duration:2000 }" title="Back to top"><i class="fas fa-chevron-up"></i></a>
-  </div>
+    </div>
 </template>
 
 <script>
@@ -28,6 +28,7 @@ export default {
   components: {
     Hero,About,Services,Portfolio,Team,Testos,Doit,Pricing,Contact
   },
+
   created(){
     window.addEventListener('scroll' , function(){
       let BackToTop = document.querySelector('.back-to-top');

@@ -2,12 +2,12 @@
     <div class="doit-section">
         <div class="row">
             <div class="col-md-6 col-xs-12 col-sm-12">
-                <img src="/icons/startup.png" alt="Startup Icon Here">
+                <img src="icons/startup.png" alt="Startup Icon Here">
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12">
                 <h2 class="wow slideInDown">Ready to Go ?</h2>
                 <p class="wow slideInDown">With your creative visions and our artistic execution, your brand is bound to succeed!</p>
-                <a class="wow zoomIn" href="#"><i class="fas fa-rocket"></i> Get Started</a>
+                <a class="wow zoomIn" v-smooth-scroll="{ duration: 1200, offset: -80 }" href="#contact"><i class="fas fa-rocket"></i> Get Started</a>
             </div>
         </div>
     </div>

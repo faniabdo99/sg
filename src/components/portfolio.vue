@@ -32,10 +32,10 @@
             <div class="project-view wow fadeInUp">
                 <router-link to="project">
                 <div class="project-logo">
-                   <img src="/icons/logo.png" alt="Logo">
+                   <img src="icons/logo.png" alt="Logo">
                    <p>Brand Name</p>
                 </div>
-                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
+                <img class="project-image" src="icons/sg.jpeg" alt="Semicolon Group Identity">
                 </router-link>
             </div>
       </div> <!-- End Grid View -->

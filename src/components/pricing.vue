@@ -2,6 +2,9 @@
   <section id="pricing" class="pricing-section">
       <h2 class="section-title">Pricing</h2>
       <p class="section-description">Affordable & For Everyone</p>
+      <p class="section-clear">The below pricing is detecated to the design and web development proccess , if you need more than that we 
+          suggest you to <a href="#contact" v-smooth-scroll="{offset: -70}">contact us</a> to discuss the details about your project.
+      </p>
       <div class="row">
           <div class="col-md-4 col-sm-12 col-xs-12">
               <div class="prcing-panel pricing-panel-low wow fadeInLeft">
@@ -10,20 +13,20 @@
                           <h3 class="plan-title"><i class="fas fa-globe"></i> Startup</h3>
                       </div>
                       <div class="plan-price">
-                          <p>250$</p> <span>One Time Payment</span>
+                          <p>200$</p> <span>One Time Payment</span>
                       </div>
                       <div class="padding-box">
                         <ul>
-                            <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> 100 Bussnies Card</li>
-                            <li><i class="fas fa-check"></i> Website & Blog</li>
-                            <li><i class="fas fa-times"></i> Marketing Plans</li>
-                            <li><i class="fas fa-times"></i> Paid Marketing Campings</li>
-                            <li><i class="fas fa-check"></i> SEO Foucsed</li>
+                            <li><i class="fas fa-check"></i> Logo</li>
+                            <li><i class="fas fa-check"></i> Full Identity Design</li>
+                            <li><i class="fas fa-check"></i> Website (SEO Focused)</li>
+                            <li><i class="fas fa-check"></i> Social Media Design</li>
+                            <li><i class="fas fa-check"></i> 1 Social Marketing Campaign</li>
+                            <li><i class="fas fa-times"></i> Blog</li>
                         </ul>
                         <hr>
                         <br><br>
-                        <a class="request-service" href="#">Request</a>
+                        <a class="request-service" href="javascript:;" @click="ShowRequestModal('Startup')">Request</a>
                       </div>
                   </div>
               </div>
@@ -33,23 +36,23 @@
               <div class="prcing-panel pricing-panel-med wow fadeInDown">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-globe"></i> Meduim</h3>
+                          <h3 class="plan-title"><i class="fas fa-star"></i> Meduim</h3>
                       </div>
                       <div class="plan-price">
                           <p>500$</p> <span>One Time Payment</span>
                       </div>
                       <div class="padding-box">
                         <ul>
+                            <li><i class="fas fa-check"></i> Logo</li>
                             <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> Identity Printing (100PC Each)</li>
-                            <li><i class="fas fa-check"></i> Website & Blog</li>
-                            <li><i class="fas fa-check"></i> Marketing Plans</li>
-                            <li><i class="fas fa-times"></i> Paid Marketing Campings</li>
-                            <li><i class="fas fa-check"></i> SEO Foucsed</li>
+                            <li><i class="fas fa-check"></i> Website (SEO Focused)</li>
+                            <li><i class="fas fa-check"></i> Blog</li>
+                            <li><i class="fas fa-check"></i> Social Media Design</li>
+                            <li><i class="fas fa-check"></i> 3 Social Marketing Campaign</li>
                         </ul>
                         <hr>
                         <br><br>
-                        <a class="request-service" href="#">Request</a>
+                        <a class="request-service" href="javascript:;" @click="ShowRequestModal('Mediume')">Request</a>
                       </div>
                   </div>
               </div>
@@ -60,34 +63,64 @@
               <div class="prcing-panel pricing-panel-high wow fadeInRight">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-globe"></i> Big Boy</h3>
+                          <h3 class="plan-title"><i class="fas fa-rocket"></i> Big Boy</h3>
                       </div>
                       <div class="plan-price">
-                          <p>800$</p> <span>One Time Payment</span>
+                          <p>1000$</p> <span>One Time Payment</span>
                       </div>
                       <div class="padding-box">
                         <ul>
-                            <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> Identity Printing (1000 PC Each)</li>
-                            <li><i class="fas fa-check"></i> Website & Blog</li>
-                            <li><i class="fas fa-check"></i> Marketing Plans</li>
-                            <li><i class="fas fa-check"></i> Paid Marketing Campings</li>
-                            <li><i class="fas fa-check"></i> SEO Foucsed</li>
+                            <li><i class="fas fa-check"></i> Logo</li>
+                            <li><i class="fas fa-check"></i> Full Identity Design</li>
+                            <li><i class="fas fa-check"></i> Website (SEO Focused)</li>
+                            <li><i class="fas fa-check"></i> Blog</li>
+                            <li><i class="fas fa-check"></i> Social Media Design</li>
+                            <li><i class="fas fa-check"></i> 6 Social Marketing Campaign</li>
                         </ul>
                         <hr>
                         <br><br>
-                        <a class="request-service" href="#">Request</a>
+                        <a class="request-service" href="javascript:;" @click="ShowRequestModal('Big Boy')">Request</a>
                       </div>
                   </div>
               </div>
           </div>
       </div>
+      <transition name="fade-popup-in">
+          <div v-if="ShowModal" @click="ShowModal = !ShowModal" class="modal-container">
+            <div  class="request-service-popup">
+                <h3>Request Service : {{PlanTitle}} Plan</h3>
+                <p>After we recive your request , one of our representers will contact you in 12 to 24 Hours to deiscuss the project details.</p>
+                <form action="#">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                    <label for="contact">Contact Method</label>
+                    <input type="text" name="contact" id="contact" placeholder="Email or Phone Number">
+                    <label for="name">Message (not required)</label>
+                    <textarea rows="8" name="name" id="name" placeholder="Project Description in few lines , will ask for more details anyway"></textarea>
+                    <input type="submit" name="send" value="Send Request" >
+                </form>
+            </div>
+        </div>
+      </transition>
   </section>
 </template>
 
 <script>
 export default {
   name: 'Portfolio',
+  data:function(){
+      return {
+          ShowModal : false,
+          PlanTitle: ""
+      }
+  },
+  methods:{
+      ShowRequestModal: function(title){
+          this.ShowModal = !this.ShowModal;
+          this.PlanTitle = title;
+      },
+      
+  }
 }
 </script>
 
@@ -95,6 +128,76 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/vars.scss";
 //The Portfolio Container
+.fade-popup-in-leave-active , .fade-popup-in-enter-active{
+    transition: all ease 0.5s;
+}
+.fade-popup-in-enter-active {
+    transition-delay: 0.5s;
+}
+.fade-popup-in-enter , .fade-leave-to{
+    opacity: 0;
+    transform: translateY(20px);
+}
+// From              To
+.fade-popup-in-enter-to, .fade-leave /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 1;
+  transform: translateY(0);
+}
+.modal-container{
+    position:fixed;
+    height:100vh;
+    width:100vw;
+    background:rgba(0,0,0,0.6);
+    z-index:9999999;
+    top:0;
+    left:0;
+}
+.request-service-popup{
+    position: absolute;
+    top: 5%;
+    width:30%;
+    right:35%;
+    left:35%;
+    padding:25px;
+    border-radius:4px;
+    background:#fff;
+    box-sizing: border-box;
+    h3{
+        color:$brand;
+        font-size:1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    p{
+        color:$dark-gray;
+        margin-bottom:10px;
+    }
+    form{
+        input , label , textarea{
+            display:block;
+            width:100%;
+            box-sizing: border-box;
+        }
+        label{
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input,textarea{
+            margin-bottom: 15px;
+            padding:10px;
+            border-radius:4px;
+            background:$light-gray;
+            border:none;
+            outline:none;
+            &[type="submit"]{
+                background: $brand;
+                color:#fff;
+                text-align: center;
+                font-weight:bold;
+            }
+        }
+    }
+}
 .pricing-section{
     padding: $section-padding;
   h2.section-title {
@@ -102,10 +205,20 @@ export default {
     margin-bottom: 25px;
     text-align: center;
   }
-  p.section-description {
+  p.section-description  {
     text-align: center;
     color: $dark-gray;
     margin-bottom: 30px;
+  }
+  p.section-clear{
+    text-align: left;
+    color: $dark-gray;
+    margin-bottom: 30px;
+    a{
+        color:$brand;
+        text-decoration:none;
+        font-weight: bold;
+    }
   }
 .pricing-panel-low{
     background: rgb(28,107,185);

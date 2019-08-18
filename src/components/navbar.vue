@@ -1,7 +1,7 @@
 <template>
       <nav :scroll="navBgOnScroll">
         <router-link to="/" class="brand-name">
-                <div><img src="/icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
+                <div><img src="icons/logo.png" alt="Logo" title="Semicolon Group" /></div>
                 <div><b><span>S</span>emicolon Group</b></div>
         </router-link>
           <div class="navbar-mobile-toggle">

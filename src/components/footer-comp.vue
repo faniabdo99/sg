@@ -5,7 +5,7 @@
          
         <div class="col-md-4 col-xs-6 col-sm-6">
             <div class="footer-brand-highlight">
-                <img src="/icons/logo-white.png" >
+                <img src="icons/logo-white.png" >
                 <p>Semicolon Group &copy;</p>
             </div>
         </div>

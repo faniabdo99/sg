@@ -114,7 +114,6 @@
 </template>
 
 <script>
-import { setTimeout } from 'timers';
 export default {
   name: "Testos",
   data:function(){
