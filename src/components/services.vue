@@ -6,7 +6,7 @@
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-copyright"></i>
             </div>
             <div class="card-content">
               <h3>Branding</h3>
@@ -24,7 +24,7 @@
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-file-code"></i>
             </div>
             <div class="card-content">
               <h3>Web Development</h3>
@@ -43,10 +43,10 @@
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-tshirt"></i>
             </div>
             <div class="card-content">
-              <h3>Merchandies</h3>
+              <h3>Merchandise</h3>
               <ul>
                 <li>Uniforms</li>
                 <li>Mugs</li>
@@ -62,7 +62,7 @@
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-bullhorn"></i>
             </div>
             <div class="card-content">
               <h3>Digital Mrkeitng</h3>
@@ -81,7 +81,7 @@
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-camera-retro"></i>
             </div>
             <div class="card-content">
               <h3>Photographic</h3>
@@ -100,10 +100,10 @@
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
-              <i class="fas fa-times"></i>
+              <i class="fas fa-print"></i>
             </div>
             <div class="card-content">
-              <h3>Priting</h3>
+              <h3>Printing</h3>
               <ul>
                 <li>Bussnies Cards</li>
                 <li>Letter Head</li>
@@ -172,11 +172,12 @@ export default {
           &::before{
             content: "";
             display: inline-block;
-            height: 6px;
-            width:17px;
+            height: 4px;
+            width:15px;
             margin-right: 5px;
             border-radius: 5px;
             background-color: $brand;
+            margin-bottom:3px;
           }
         }
       }

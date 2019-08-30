@@ -30,7 +30,7 @@
             <div class="col-md-7 col-xs-11 col-sm-11">
                 <blockquote class="wow fadeIn">
                     <i class="fas fa-quote-left"></i>
-                    <span>What Makes Semicolon Group Deffrint in my opinion is that they offer you ideas more that what you even can think of! Happy to Have the chance to work with them</span>
+                    <span>What makes <b>Semicolon Group</b> different in my opinion is that they offer you ideas more that what you even can think of! Happy to have the chance to work with them</span>
                     <i class="fas fa-quote-right"></i>
                 </blockquote>
             </div>
@@ -45,7 +45,7 @@
                         <div class="image-container">
                         <img src="/icons/abd.jpg" alt="User Image" >
                         </div>  
-                        <h3>Second Quoter <br> <small>Owner @ Second Company</small></h3>
+                        <h3>Abod Alzobair <br> <small>Owner @ Jackorta Apps</small></h3>
                     </div>
                     <ul class="stars-review">
                         <li><b>More Than Expected...</b></li>
@@ -53,16 +53,17 @@
                         <li><i class="fas fa-star"></i></li>
                         <li><i class="fas fa-star"></i></li>
                         <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
                     </ul>
                     <p class="client-description">
-                        Some Long Description here about the Second person.
+                        Owner and founder of Jackorta Apps , a Leading company in desktop and mobile applications
                     </p>
                 </div>
             </div>
             <div class="col-md-7 col-xs-11 col-sm-11">
                 <blockquote class=" wow fadeIn">
                     <i class="fas fa-quote-left"></i>
-                    <span>Some 20 Words Fomr THe Second Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .</span>
+                    <span>We started our discussion with the idea of a simple landing page , at the end i found myslef with more feuaters at the same price and deadline! Awesome</span>
                     <i class="fas fa-quote-right"></i>
                 </blockquote>
             </div>
@@ -76,10 +77,10 @@
                         <div class="image-container">
                         <img src="/icons/abd.jpg" alt="User Image" >
                         </div>  
-                        <h3>Third Quoter <br> <small>Owner @ Third Company</small></h3>
+                        <h3>Gaiath Alrawy <br> <small>General Manager @ ARTE</small></h3>
                     </div>
                     <ul class="stars-review">
-                        <li><b>One More Text</b></li>
+                        <li><b>They Solved The Problem</b></li>
                         <li><i class="fas fa-star"></i></li>
                         <li><i class="fas fa-star"></i></li>
                         <li><i class="fas fa-star"></i></li>
@@ -87,14 +88,14 @@
                         <li><i class="fas fa-star"></i></li>
                     </ul>
                     <p class="client-description">
-                        Some Long Description here about the Third person.
+                        Gaiath is the owner of ARTE , a company that makes child clothes in Egypt
                     </p>
                 </div>
             </div>
             <div class="col-md-7 col-xs-11 col-sm-11">
                 <blockquote class=" wow fadeIn">
                     <i class="fas fa-quote-left"></i>
-                    <span>Some 20 Words Fomr THe Third Quoter Quote Here .Some 20 Words Quote Here .Some 20 Words Quote Here .</span>
+                    <span>I Was never a fan of technology , i bellive in papers and pen, but the systems that <b>SG</b> Developed for me what irresistible !</span>
                     <i class="fas fa-quote-right"></i>
                 </blockquote>
             </div>
@@ -122,7 +123,7 @@ export default {
     }// End Data Return Function
   },
   created(){
-    this.interval = setInterval(() => this.UpdateQoutes(), 8000);
+    this.interval = setInterval(() => this.UpdateQoutes(), 16000);
   },//Created End 
   methods: {
       UpdateQoutes: function(){

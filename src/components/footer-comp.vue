@@ -41,7 +41,7 @@
                         <div class="icon-container">
                             <i class="fas fa-project-diagram"></i>
                         </div>
-                        <span><b>5</b> Succeful Projects</span>
+                        <span><b>5</b> Successful Projects</span>
                     </li>
                 </ul>
             </div>

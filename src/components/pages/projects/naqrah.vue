@@ -14,7 +14,7 @@
                         <p class="brand-information wow fadeInLeft">Social Network For Arab Developers Around The World , Allows Users to Post Questions and Articles Anlong Side With 
                             Educational Videos and React to Them , The Platform Also Supports Groups And Own a Blog Manged By The Owners.
                             <br>
-                            One of the best and most inluance projects that we made , Includes a website , Social media elements and Printable items. 
+                            One of the best and most influence projects that we made , Includes a website , Social media elements and Printable items. 
                             <br><br>
                             <b>Items Included in The Presentation:</b>
                             <ul class="items-included  wow fadeInLeft">

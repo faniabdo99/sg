@@ -23,7 +23,7 @@
                         <blockquote class="wow slideInRight">
                             <i class="fas fa-quote-left"></i> 
                                 Great Products Requires Great Minds. We Like to Provide The Top Level of Products 
-                                Using Our Great Team Experince and Customer's Best Ideas !
+                                Using Our Great Team Experience and Customer's Best Ideas !
                             <i class="fas fa-quote-right"></i> 
                         </blockquote>
                 </div>

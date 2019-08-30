@@ -16,10 +16,17 @@
             </div>
         </div>
     <div class="col-md-9 col-xs-12 col-sm-12">
+  
         <transition-group tag="div" class="projects-list" name="shuffle">
-            <div v-for="item in filteredItems"  v-bind:key="item.id" class="item logo">
-                <a href="#"><h4>{{item.title}}</h4>
-                <img :src="item.imageSrc" :alt=" item.title + item.type"></a>
+            <div class="item" v-for="item in filteredItems"  v-bind:key="item.id" >
+                
+                    <div class="img-container">
+                        <img :src="item.imageSrc" :alt=" item.title + item.type" >
+                    </div>
+                    <div class="text-container">
+                         <h2>{{item.title}}</h2>
+                    </div>
+                    <router-link :to="item.to">Full Project</router-link>
             </div>
         </transition-group>
      </div>
@@ -33,12 +40,15 @@ export default {
         return{
             type: '',
             items : [
-                {id: 1 , title: "Semicolon Group" , type: 'logo' , imageSrc: '/icons/logo.png'},
-                {id: 2 , title: "Semicolon" , type: 'logo' , imageSrc: '/icons/logo.png'},
-                {id: 3 , title: "Naqrah" , type: 'id' , imageSrc: '/icons/logo.png'},
-                {id: 4 , title: "ARTE" , type: 'id' , imageSrc: '/icons/logo.png'},
-                {id: 5 , title: "Naqrah web" , type: 'website' , imageSrc: '/icons/logo.png'},
-                {id: 6 , title: "Tanmea" , type: 'website' , imageSrc: '/icons/logo.png'}
+                {id: 1 , title: "Naqrah Brand Identity & Website" , type: 'website' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 2 , title: "Bayan Medican Logo" , type: 'id' , imageSrc: '/icons/projects/bayan/logo.png' , to: '/bayan'},
+                {id: 3 , title: "Durrat Alkhaligh Identity" , type: 'id' , imageSrc: '/icons/projects/durra/logo.png' , to: '/durrat-alkhaligh'},
+                {id: 4 , title: "Tatwer Alalamya Identity" , type: 'id' , imageSrc: '/icons/projects/tatwer/logo.jpg' , to: '/tatwer'},
+                {id: 5 , title: "Versace Brand Identity" , type: 'id' , imageSrc: '/icons/projects/verasce/Black Logo.png' , to: '/naqrah'},
+                {id: 6 , title: "Tanmea Website" , type: 'website' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 7 , title: "Jackorta Apps Website" , type: 'website' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 8 , title: "Tanmea Website" , type: 'id' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 9 , title: "Tanmea Website" , type: 'id' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
             ]
         }
     },
@@ -135,37 +145,49 @@ ul.projects-filters{
 }
 .projects-list{
     padding: 0 50px 50px 50px;
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-auto-rows: 250px;
-    grid-auto-flow:  dense;
-    grid-gap:15px;
-    min-height: 150vh;
-    .item{
-        position: relative;        
-        h4{
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            color:#fff;
-            font-size: 1.2em;
-            &::after{
-                content: "";
+ 
+}
+   .item{
+        background:$light-gray;
+        border-radius:5px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-basis: 0;
+        align-items: center;
+        
+        .img-container{
+            flex:1;
+            background:$brand;
+            padding:15px;
+            img{
+                width: 80px;
+                height: 80px;
                 display: block;
-                height: 2px;
-                background-color: #fff;
-                width:75%;
-                border-radius:5px;
-                margin-top:5px;
+                margin:auto;
             }
         }
-            img{
-            width: 100%;
-            height: 100%;
-            border-radius:4px;
+        .text-container{
+            padding:15px;
+            flex:5;
+            h2{
+                color:$brand;
+            }
         }
+        a{
+            flex:1;
+            background:$brand;
+            padding:10px 15px;
+            text-align: center;
+            display:block;
+            margin-right:15px;
+            color:#fff;
+            font-weight: bold;
+            border-radius:5px;
+            text-decoration:none;
+        }
+  
+
     }
-}
 
 @media screen and (max-width:768px){
 .all-projects{

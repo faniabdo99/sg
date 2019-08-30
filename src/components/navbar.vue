@@ -14,7 +14,7 @@
                 <li><a href="/#portfolio" v-smooth-scroll="{ duration: 1500, offset: -40 }">Portfolio</a></li>
                 <li><a href="/#pricing" v-smooth-scroll="{ duration: 2400, offset: -80 }">Pricing</a></li>
                 <li><a href="/#contact" v-smooth-scroll="{ duration: 2800, offset: -80 }">Contact Us</a></li>
-                <li class="important-link"><router-link to="request">Free Cosnultation</router-link></li>
+                <li class="important-link"><router-link to="request">Free Consultation</router-link></li>
             </ul>
           </transition>
       </nav>

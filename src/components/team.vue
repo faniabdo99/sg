@@ -19,10 +19,10 @@
             <div class="team-container wow fadeInDown">
                 <div class="team-member">
                     <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
-                    <h3>Hasan Nahleh <br><small>CO-Founder & CFO</small></h3>
+                    <h3>Tyasser Ibrahmin <br><small>CO-Founder</small></h3>
                 </div>
                 <blockquote>
-                    Without ambition one starts nothing. Without work one finishes nothing. The prize will not be sent to you. You have to win it.<br>― Ralph Waldo Emerson
+                    Life Begins at the edge of comfort zone. <br>― Neale Donald Walsch
                 </blockquote>   
             </div>
         </div>

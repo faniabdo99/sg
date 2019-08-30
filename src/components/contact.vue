@@ -7,9 +7,9 @@
                 <p class="section-description"><b>Semicolon Group</b> Provide Modern Soulotions All Around The World , But For Those Who Like The Face-to-Face Prespetive , You Can Find Us in The Adresses Below</p>
                 <ul>
                     <li><i class="fas fa-clock"></i> 24 Hours , 7 Days</li>
-                    <li><i class="fas fa-map-marker"></i> 6 Of October City , Egypt</li>
-                    <li><i class="fas fa-map-marker"></i> Birute , Lebanone</li>
-                    <li><i class="fas fa-map-marker"></i> Basrah , Iraq</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 6 Of October City , Egypt</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Birute , Lebanone</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Basrah , Iraq</li>
                     <li><i class="fas fa-envelope"></i> sales@semicolongroup.com </li>
                     <li><i class="fas fa-phone"></i> +2200 115 1411 867</li>
                 </ul>
@@ -95,6 +95,8 @@ export default {
             color:#fff;
             font-weight: bold;
             font-size: 1.3em;
+            text-align:center;
+            padding: 15px;
         }
     }
 }

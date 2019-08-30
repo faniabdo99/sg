@@ -14,6 +14,10 @@ import RequestService from './components/pages/request-service'
 import App from './App'
 //Projects Components
 import Naqrah from './components/pages/projects/naqrah'
+import Tatwer from './components/pages/projects/tatwer'
+import DurratAlkaligh from './components/pages/projects/durra'
+import Verasce from './components/pages/projects/verasce'
+
 
 /* Init The Core Packages */
 Vue.use(vueSmoothScroll)
@@ -29,6 +33,9 @@ const router = new VueRouter({
   routes : [
     {path:'/' , component:App},
     {path:'/naqrah' , component:Naqrah},
+    {path:'/tatwer' , component:Tatwer},
+    {path: '/duraat-alkhaligh' , component:DurratAlkaligh},
+    {path: '/verasce' , component:Verasce},
     {path:'/project' , component:SingleProject},
     {path:'/projects' , component:AllProjects},
     {path:'/request' , component:RequestService}

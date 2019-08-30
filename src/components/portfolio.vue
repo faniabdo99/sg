@@ -12,30 +12,27 @@
                 </router-link>
             </div>
             <div class="project-view main-row-project wow fadeInRight">
-                <a href="project">
+                <router-link to="tatwer">
                 <div class="project-logo">
-                   <img src="/icons/logo.png" alt="Logo">
-                   <p>Brand Name</p>
+                   <img src="/icons/projects/tatwer/logo.jpg" alt="Tatwer Project">
                 </div>
-                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                </a>
+                <img class="project-image" src="/icons/projects/tatwer/poster.jpg" alt="Tatwer Project Identity">
+                </router-link>
             </div>
             <div class="project-view wow fadeInUp">
-                <a href="project">
+                <router-link to="duraat-alkhaligh">
                 <div class="project-logo">
-                   <img src="/icons/logo.png" alt="Logo">
-                   <p>Brand Name</p>
+                   <img src="/icons/projects/durra/logo.png" alt="Duarr Logo">
                 </div>
-                <img class="project-image" src="/icons/sg.jpeg" alt="Semicolon Group Identity">
-                </a>
+                <img class="project-image" src="/icons/projects/durra/logo.png" alt="Duraat Alkaligh Identity">
+                </router-link>
             </div>
             <div class="project-view wow fadeInUp">
-                <router-link to="project">
+                <router-link to="/verasce">
                 <div class="project-logo">
-                   <img src="icons/logo.png" alt="Logo">
-                   <p>Brand Name</p>
+                   <img src="icons/projects/verasce/logo-pink.png" alt="Logo">
                 </div>
-                <img class="project-image" src="icons/sg.jpeg" alt="Semicolon Group Identity">
+                <img class="project-image" src="icons/projects/verasce/cover.jpg" alt="Semicolon Group Identity">
                 </router-link>
             </div>
       </div> <!-- End Grid View -->
@@ -92,8 +89,8 @@ export default {
             padding:25px;
             box-sizing: border-box;
             img{
-                width: 100px;
-                height: 90px;
+                width: 80px;
+                height: 70px;
                 margin-right: 20px;
             }
         }

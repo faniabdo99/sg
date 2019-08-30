@@ -211,7 +211,7 @@ export default {
     margin-bottom: 30px;
   }
   p.section-clear{
-    text-align: left;
+    text-align: center;
     color: $dark-gray;
     margin-bottom: 30px;
     a{
@@ -310,9 +310,23 @@ export default {
   .prcing-panel{
       width: 85%;
       margin: 0 auto 15px auto;
-
-
   }
+}
+.modal-container{
+    overflow-y:scroll;
+
+}
+.request-service-popup{
+    width:70%;
+    left:15%;
+    right:15%;
+    top:5%;
+    padding:15px;
+    margin-bottom: 5%;
+    h3{
+        font-size:1.2em;
+        margin-bottom: 10px;
+    }
 }
 }
 </style>
