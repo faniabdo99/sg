@@ -77,10 +77,10 @@
                         <div class="image-container">
                         <img src="/icons/abd.jpg" alt="User Image" >
                         </div>  
-                        <h3>Gaiath Alrawy <br> <small>General Manager @ ARTE</small></h3>
+                        <h3>Lamis Al-Otaiby <br> <small>Leader @ Smart Refrigerator</small></h3>
                     </div>
                     <ul class="stars-review">
-                        <li><b>They Solved The Problem</b></li>
+                        <li><b>Professional Yet Kind</b></li>
                         <li><i class="fas fa-star"></i></li>
                         <li><i class="fas fa-star"></i></li>
                         <li><i class="fas fa-star"></i></li>
@@ -88,7 +88,7 @@
                         <li><i class="fas fa-star"></i></li>
                     </ul>
                     <p class="client-description">
-                        Gaiath is the owner of ARTE , a company that makes child clothes in Egypt
+                        Lamis is the leader of smart refrigerator project , a startup company in Saudi Arabia
                     </p>
                 </div>
             </div>

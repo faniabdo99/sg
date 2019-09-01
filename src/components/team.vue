@@ -19,7 +19,7 @@
             <div class="team-container wow fadeInDown">
                 <div class="team-member">
                     <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
-                    <h3>Tyasser Ibrahmin <br><small>CO-Founder</small></h3>
+                    <h3>Tyasser Ibrahim <br><small>CO-Founder</small></h3>
                 </div>
                 <blockquote>
                     Life Begins at the edge of comfort zone. <br>― Neale Donald Walsch

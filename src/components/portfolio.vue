@@ -5,33 +5,22 @@
       <div class="projects-grid">
             <div class="project-view main-project wow fadeInDown">
                 <router-link to="naqrah">
-               <div class="project-logo">
-                   <img src="/icons/projects/naqrah/logo.png" alt="Naqrah Logo">
-                </div>
-                <img class="project-image" src="/icons/projects/naqrah/background.png" alt="Naqrah Idenitiy Background">
+                        <img class="project-image" src="/icons/projects/naqrah/background.png" alt="Naqrah Idenitiy Background">
                 </router-link>
             </div>
             <div class="project-view main-row-project wow fadeInRight">
                 <router-link to="tatwer">
-                <div class="project-logo">
-                   <img src="/icons/projects/tatwer/logo.jpg" alt="Tatwer Project">
-                </div>
                 <img class="project-image" src="/icons/projects/tatwer/poster.jpg" alt="Tatwer Project Identity">
                 </router-link>
             </div>
             <div class="project-view wow fadeInUp">
                 <router-link to="duraat-alkhaligh">
-                <div class="project-logo">
-                   <img src="/icons/projects/durra/logo.png" alt="Duarr Logo">
-                </div>
                 <img class="project-image" src="/icons/projects/durra/logo.png" alt="Duraat Alkaligh Identity">
                 </router-link>
             </div>
             <div class="project-view wow fadeInUp">
                 <router-link to="/verasce">
-                <div class="project-logo">
-                   <img src="icons/projects/verasce/logo-pink.png" alt="Logo">
-                </div>
+              
                 <img class="project-image" src="icons/projects/verasce/cover.jpg" alt="Semicolon Group Identity">
                 </router-link>
             </div>
@@ -75,7 +64,6 @@ export default {
         
         img.project-image{
             transition: all ease 0.3s;
-            filter: brightness(80%);
             width:100%;
             height:280px;
             border-radius: 4px;
@@ -96,7 +84,7 @@ export default {
         }
         &:hover{
             img.project-image{
-                filter: brightness(10%);
+                filter: brightness(90%);
                 transition: all ease 0.3s;
             }
         }

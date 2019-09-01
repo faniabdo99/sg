@@ -17,12 +17,10 @@
                       </div>
                       <div class="padding-box">
                         <ul>
-                            <li><i class="fas fa-check"></i> Logo</li>
-                            <li><i class="fas fa-check"></i> Full Identity Design</li>
-                            <li><i class="fas fa-check"></i> Website (SEO Focused)</li>
-                            <li><i class="fas fa-check"></i> Social Media Design</li>
-                            <li><i class="fas fa-check"></i> 1 Social Marketing Campaign</li>
-                            <li><i class="fas fa-times"></i> Blog</li>
+                            <li><i class="fas fa-check"></i> Logo Design</li>
+                            <li><i class="fas fa-check"></i> Website (Static)</li>
+                            <li><i class="fas fa-check"></i> Social Page Cover</li>
+                            <li><i class="fas fa-check"></i> 4 Social Media Post</li>
                         </ul>
                         <hr>
                         <br><br>
@@ -44,11 +42,12 @@
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Logo</li>
-                            <li><i class="fas fa-check"></i> Brand Identity</li>
-                            <li><i class="fas fa-check"></i> Website (SEO Focused)</li>
-                            <li><i class="fas fa-check"></i> Blog</li>
-                            <li><i class="fas fa-check"></i> Social Media Design</li>
-                            <li><i class="fas fa-check"></i> 3 Social Marketing Campaign</li>
+                            <li><i class="fas fa-check"></i> Bussnies Crad , Letter Head , Envelope</li>
+                            <li><i class="fas fa-check"></i> Rollup , T-Shirt , Stamp</li>
+                            <li><i class="fas fa-check"></i> Social Media Cover</li>
+                            <li><i class="fas fa-check"></i> 8 Social Media Posts</li>
+                            <li><i class="fas fa-check"></i> Dynamic Website</li>
+                            <li><i class="fas fa-check"></i> 2 Bussnies Emails</li>
                         </ul>
                         <hr>
                         <br><br>
@@ -71,11 +70,13 @@
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Logo</li>
-                            <li><i class="fas fa-check"></i> Full Identity Design</li>
-                            <li><i class="fas fa-check"></i> Website (SEO Focused)</li>
-                            <li><i class="fas fa-check"></i> Blog</li>
-                            <li><i class="fas fa-check"></i> Social Media Design</li>
-                            <li><i class="fas fa-check"></i> 6 Social Marketing Campaign</li>
+                            <li><i class="fas fa-check"></i> Bussnies Crad , Letter Head , Envelope</li>
+                            <li><i class="fas fa-check"></i> Rollup , T-Shirt , Stamp</li>
+                            <li><i class="fas fa-check"></i> Social Media Cover</li>
+                            <li><i class="fas fa-check"></i> 12 Social Media Posts</li>
+                            <li><i class="fas fa-check"></i> Custome Website</li>
+                            <li><i class="fas fa-check"></i> Google Bussnies Services</li>
+                            <li><i class="fas fa-check"></i> 4 Bussnies Emails</li>
                         </ul>
                         <hr>
                         <br><br>
