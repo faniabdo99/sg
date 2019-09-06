@@ -15,11 +15,12 @@
                 </ul>
             </div>
             <div class="col-md-8 col-xs-12 col-sm-12">
-                <form action="#" method="post">
-                    <div class="input-group"><i class="fas fa-user"></i><input type="text" name="name" placeholder="Full Name"></div>
-                     <div class="input-group"><i class="fas fa-phone"></i><input type="text" name="email" placeholder="Contact Information (Phone Number Or Email)"></div>
-                     <div class="input-group"><i class="fas fa-envelope"></i><textarea name="message" placeholder="Message" cols="30" rows="10"></textarea></div>
-                    <input type="submit" value="Send" name="send">
+                <form action="javascript:;" method="post">
+                    <div class="input-group"><i class="fas fa-user"></i><input v-model="SenderName" type="text" name="name" placeholder="Full Name"></div>
+                    <div class="input-group"><i class="fas fa-phone"></i><input v-model="SenderContactMethod" type="text" name="email" placeholder="Contact Information (Phone Number Or Email)"></div>
+                    <div class="input-group"><i class="fas fa-envelope"></i><textarea v-model="SenderMessage" name="message" placeholder="Message" cols="30" rows="10"></textarea></div>
+                    <button @click="SendMessage" type="submit" name="send">Send</button>
+                    <div id="response" v-html="ActionResponse"></div>
                 </form>
             </div>
         </div>
@@ -27,12 +28,56 @@
 </template>
 <script>
 export default {
-    name: "Doit"
+    name: "Contact",
+    data: function(){
+        return {
+            SenderName: "",
+            SenderContactMethod: "",
+            SenderMessage: "",
+            ActionResponse: ""
+        }
+    },
+    methods: {
+        SendMessage : function(){
+            var SendButton = document.querySelector('button[type="submit"]');
+            //SendButton Minpulations
+            var that = this;
+            //Make XHR Request Here to contact API and recieve response
+            let xhr = new XMLHttpRequest(); // the constructor has no arguments
+            xhr.open('GET', '/apis/contact.php?ContactSection='+'contact'+'&SenderName='+that.SenderName+'&SenderContactMethod='+that.SenderContactMethod+'&SenderMessage='+that.SenderMessage);
+            xhr.send();
+            xhr.onreadystatechange = function() {
+              if(xhr.readyState == 4){
+                  SendButton.innerHTML = "Send";
+                  SendButton.classList.remove('sending');
+                  that.ActionResponse = xhr.response;
+              }
+            };
+
+
+        }
+    }
 }
 </script>
+
 <style scoped lang="scss">
 @import "../assets/sass/vars.scss";
 //Contact Section Styles Here
+#response{
+    text-align:center;
+    font-weight:bold;
+}
+.form-response{
+    font-weight: bold;
+    text-align: center;
+    &.danger{
+        color: #a51f1f;
+    }
+    &.success{
+        color: #22c722;
+    }
+}
+
 .contact-section{
     padding: $section-padding;
     h2 {
@@ -80,7 +125,7 @@ export default {
                 padding:10px 0 0 9px;
             }
         }
-        input , textarea{
+        input , textarea , button{
             width: 100%;
             padding:15px 15px 15px 50px;
             border-radius: 5px;
@@ -89,7 +134,7 @@ export default {
             margin-bottom:20px;
             box-sizing: border-box;
         }
-        input[type="submit"]{
+        button[type="submit"]{
             width: 100%;
             background-color:$brand;
             color:#fff;
@@ -97,6 +142,24 @@ export default {
             font-size: 1.3em;
             text-align:center;
             padding: 15px;
+            outline:none;
+            &.sending{
+                animation: SendingMessage 1s infinite;
+            }
+            &.failed{
+                background-color:red;
+            }
+        }
+    }
+    @keyframes SendingMessage{
+        0%{
+            background-color: $brand;
+        }
+        50%{
+            background-color: #137c13;
+        }
+        100%{
+            background-color: $brand;
         }
     }
 }

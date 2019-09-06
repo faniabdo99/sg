@@ -10,7 +10,7 @@
                 <div class="client-information wow slideInLeft">
                     <div class="client-name">
                         <div class="image-container">
-                        <img src="/icons/abd.jpg" alt="User Image" >
+                        <img src="/img/hani.jpeg" alt="Hani Boqamsin" >
                         </div>  
                         <h3>Hani Bo Qmasine <br> <small>Owner @ Safakat Readiyah</small></h3>
                     </div>
@@ -43,7 +43,7 @@
                 <div class="client-information wow slideInLeft">
                     <div class="client-name">
                         <div class="image-container">
-                        <img src="/icons/abd.jpg" alt="User Image" >
+                        <img src="/img/abd.jpg" alt="User Image" >
                         </div>  
                         <h3>Abod Alzobair <br> <small>Owner @ Jackorta Apps</small></h3>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="client-information wow slideInLeft">
                     <div class="client-name">
                         <div class="image-container">
-                        <img src="/icons/abd.jpg" alt="User Image" >
+                        <img src="/img/abd.jpg" alt="User Image" >
                         </div>  
                         <h3>Lamis Al-Otaiby <br> <small>Leader @ Smart Refrigerator</small></h3>
                     </div>

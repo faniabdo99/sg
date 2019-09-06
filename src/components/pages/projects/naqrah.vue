@@ -7,7 +7,7 @@
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="brand-main-info wow fadeInDown">
                                 <div class="logo-container">
-                                    <img src="/icons/projects/naqrah/logo.png" alt="Naqrah Logo">
+                                    <img src="img/projects/naqrah/logo.png" alt="Naqrah Logo">
                                 </div>
                                 <h1>Naqrah</h1>
                         </div>
@@ -42,19 +42,9 @@
         <div class="row">
             <div class="brand-concept">
                 <h2 class="wow fadeInLeft">Logo</h2>
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="logo-idea wow zoomIn">
-                            <img src="/icons/projects/naqrah/logo.png" alt="Naqrah Logo">
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-12 col-sm-12">
-                        <div class="logo-brand-bg wow zoomIn">
-                            <img src="/icons/projects/naqrah/logo.png" alt="Naqrah Logo">
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-12 col-sm-12">
-                        <div class="logo-black-bg wow zoomIn">
-                            <img src="/icons/projects/naqrah/logo.png" alt="Naqrah Logo">
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="wow zoomIn">
+                            <img class="full-width-image" src="img/projects/naqrah/logo.png" alt="Naqrah Logo">
                         </div>
                     </div>
                 </div>
@@ -62,14 +52,9 @@
         <div class="row">
             <div class="brand-concept">
                 <h2 class="wow fadeInLeft">Bussnies Card</h2>
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="bussnies-card-front wow zoomIn">
-                            <img src="/icons/projects/naqrah/card-front.png" alt="Naqrah Bussnies Card">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xs-12 col-sm-12">
-                        <div class="bussnies-card-back wow zoomIn">
-                            <img src="/icons/projects/naqrah/card-back.png" alt="Naqrah Bussnies Card">
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <div class="wow zoomIn">
+                            <img class="full-width-image" src="img/projects/naqrah/card.png" alt="Naqrah Bussnies Card">
                         </div>
                     </div>
                 </div>
@@ -81,12 +66,12 @@
                 You can check naqrah's social media accounts @naqrahOfficial</p>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="social-media-page wow zoomIn">
-                            <img src="/icons/projects/naqrah/facebook-page.png" alt="Naqrah Facebook Page">
+                            <img src="img/projects/naqrah/facebook-page.png" alt="Naqrah Facebook Page">
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="social-media-posts wow zoomIn">
-                            <img src="/icons/projects/naqrah/single-post.png" alt="Naqrah Single Post">
+                            <img src="img/projects/naqrah/single-post.png" alt="Naqrah Single Post">
                         </div>
                     </div>
                 </div>
@@ -97,17 +82,17 @@
                 <p class="wow fadeInLeft">Naqrah's Website is online , Check it from here <a href="https://naqrah.net" target="_blank">Naqrah's Wesbite</a></p>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="website-desktop wow zoomIn">
-                            <img src="/icons/projects/naqrah/desktop.png" alt="Naqrah Website (Desktop)">
+                            <img src="img/projects/naqrah/desktop.png" alt="Naqrah Website (Desktop)">
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-12 col-sm-12">
                         <div class="website-phone wow zoomIn">
-                            <img src="/icons/projects/naqrah/phone.png" alt="Naqrah Website (Phone)">
+                            <img src="img/projects/naqrah/phone.png" alt="Naqrah Website (Phone)">
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-12 col-sm-12">
                         <div class="website-tablet wow zoomIn">
-                            <img src="/icons/projects/naqrah/ipad.png" alt="Naqrah Website (Tablet)">
+                            <img src="img/projects/naqrah/ipad.png" alt="Naqrah Website (Tablet)">
                         </div>
                     </div>
                 </div>
@@ -133,10 +118,15 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../../assets/sass/vars";
-
+.full-width-image{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .brand-cover{
     height: 100vh;
-    background: url('/icons/hero.jpg') no-repeat center center;
+    background: url('/img/hero.jpg') no-repeat center center;
     background-size: cover;
     .brand-cover-content{
         height: 100vh;

@@ -7,7 +7,7 @@
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="brand-main-info wow fadeInDown">
                                 <div class="logo-container">
-                                    <img src="/icons/projects/verasce/logo-pink.png" alt="Versace Logo">
+                                    <img src="img/projects/verasce/logo-pink.png" alt="Versace Logo">
                                 </div>
                                 <h1>Versace</h1>
                         </div>
@@ -35,7 +35,7 @@
         <div class="row">
             <div class="brand-concept">
                 <h2 class="wow fadeInLeft">Brand Idea & Concept</h2>
-                <img class="full-width-image" src="icons/projects/verasce/idea.jpg" >
+                <img class="full-width-image" src="img/projects/verasce/idea.jpg" >
             </div>
         </div>
         <div class="row">
@@ -43,7 +43,7 @@
                 <h2 class="wow fadeInLeft">Logo</h2>
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/verasce/logo-multip.jpg" alt="Versace Logo">
+                            <img class="full-width-image" src="img/projects/verasce/logo-multip.jpg" alt="Versace Logo">
                         </div>
                     </div>
                 </div>
@@ -53,12 +53,12 @@
                 <h2 class="wow fadeInLeft">More Elements</h2>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/verasce/bag.jpg" alt="Versace Cotton Bag">
+                            <img class="full-width-image" src="img/projects/verasce/bag.jpg" alt="Versace Cotton Bag">
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/verasce/wall-poster.jpg" alt="Versace Wall Poster">
+                            <img class="full-width-image" src="img/projects/verasce/wall-poster.jpg" alt="Versace Wall Poster">
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ $project-brand: #d33cc6;
 }
 .brand-cover{
     height: 100vh;
-    background: url('/icons/projects/verasce/cover.jpg') no-repeat center center;
+    background: url('/img/projects/verasce/cover.jpg') no-repeat center center;
     background-size: cover;
     .brand-cover-content{
         height: 100vh;

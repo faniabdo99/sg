@@ -15,17 +15,17 @@
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="brand-main-info">
                                 <div class="logo-container">
-                                    <img src="/icons/logo.png" alt="Company Logo">
+                                    <img src="img/logo.png" alt="Company Logo">
                                 </div>
                                 <h1>Semicolon Group</h1>
                         </div>
                         <p class="brand-information">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus doloribus quidem iure numquam explicabo aliquam. Porro facere repellendus voluptate?</p>
                         <a class="view-project" href="#project-overview" v-smooth-scroll="{ duration: 700, offset: -80 }">View Full Project</a>
                         <ul class="brand-images-list">
-                            <li><img src="/icons/logo.png" alt="Bussnies Card"></li>
-                            <li><img src="/icons/projects/id-card.png" alt="Bussnies Card"></li>
-                            <li><img src="/icons/projects/id-card.png" alt="Bussnies Card"></li>
-                            <li><img src="/icons/projects/id-card.png" alt="Bussnies Card"></li>
+                            <li><img src="img/logo.png" alt="Bussnies Card"></li>
+                            <li><img src="img/projects/id-card.png" alt="Bussnies Card"></li>
+                            <li><img src="img/projects/id-card.png" alt="Bussnies Card"></li>
+                            <li><img src="img/projects/id-card.png" alt="Bussnies Card"></li>
                         </ul>
                     </div>
                 </div>
@@ -40,27 +40,27 @@
        <section class="project-items">
            <div @click="ShowImages" class="item logo">
                <h4>Logo</h4>
-               <img src="/icons/logo.png" alt="Logo">
+               <img src="img/logo.png" alt="Logo">
            </div>
             <div @click="ShowImages" class="item logo-inverse">
                <h4>Logo Inverse</h4>
-               <img src="/icons/logo-white.png" alt="Logo Inverse">
+               <img src="img/logo-white.png" alt="Logo Inverse">
            </div>
             <div @click="ShowImages" class="item letter-head">
                <h4>Letter Head</h4>
-               <img src="/icons/projects/id-card.png" alt="Letter Head">
+               <img src="img/projects/id-card.png" alt="Letter Head">
            </div>
             <div @click="ShowImages" class="item bussnies-card">
                <h4>Bussnies Card</h4>
-               <img src="/icons/projects/id-card.png" alt="Bussnies Card">
+               <img src="img/projects/id-card.png" alt="Bussnies Card">
            </div>
             <div @click="ShowImages" class="item website">
                <h4>Website</h4>
-               <img src="/icons/projects/id-card.png" alt="Website">
+               <img src="img/projects/id-card.png" alt="Website">
            </div>
             <div @click="ShowImages" class="item social-post">
                <h4>Social Post Template</h4>
-               <img src="/icons/projects/id-card.png" alt="Social Post Template">
+               <img src="img/projects/id-card.png" alt="Social Post Template">
            </div>
        </section>
        
@@ -213,7 +213,7 @@ export default {
 }
 .brand-cover{
     height: 100vh;
-    background: url('/icons/hero.jpg') no-repeat center center;
+    background: url('/img/hero.jpg') no-repeat center center;
     background-size: cover;
     .brand-cover-content{
         height: 100vh;

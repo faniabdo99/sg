@@ -10,7 +10,7 @@
                 </ul>
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12 pull-left">
-              <img class="wow fadeInRight hero-image" src="icons/hero-sub-image.png" alt="Hero Image">
+              <img class="wow fadeInRight hero-image" src="img/hero-sub-image.png" alt="Hero Image">
             </div>
             <span class="hero-mouse"><i class="fas fa-circle"></i></span>
         </div>
@@ -34,7 +34,7 @@ export default {
     box-sizing: border-box !important;
     height: 100vh;
     width:100%;
-    background: url('/icons/hero-image.png') no-repeat center center;
+    background: url('/img/hero-image.png') no-repeat center center;
     background-size:cover;
 .hero-section-content{
       box-sizing: border-box !important; 

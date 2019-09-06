@@ -15,7 +15,7 @@
                 <div class="pull-left col-md-4 col-xs-12 col-sm-12">
                     <div class="wow slideInRight company-name">
                         <div>
-                            <img src="icons/abd.jpg" alt="Abd Alrahman Fani">
+                            <img src="img/abd.jpg" alt="Abd Alrahman Fani">
                         </div>
                         <h2>Abd Arahman Fani <br><small>Founder & CEO</small></h2>
                     </div>

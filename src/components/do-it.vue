@@ -2,7 +2,7 @@
     <div class="doit-section">
         <div class="row">
             <div class="col-md-6 col-xs-12 col-sm-12">
-                <img src="icons/startup.png" alt="Startup Icon Here">
+                <img src="img/startup.png" alt="Startup Icon Here">
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12">
                 <h2 class="wow slideInDown">Ready to Go ?</h2>

@@ -40,15 +40,15 @@ export default {
         return{
             type: '',
             items : [
-                {id: 1 , title: "Naqrah Brand Identity & Website" , type: 'website' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
-                {id: 2 , title: "Bayan Medican Logo" , type: 'id' , imageSrc: '/icons/projects/bayan/logo.png' , to: '/bayan'},
-                {id: 3 , title: "Durrat Alkhaligh Identity" , type: 'id' , imageSrc: '/icons/projects/durra/logo.png' , to: '/durrat-alkhaligh'},
-                {id: 4 , title: "Tatwer Alalamya Identity" , type: 'id' , imageSrc: '/icons/projects/tatwer/logo.jpg' , to: '/tatwer'},
-                {id: 5 , title: "Versace Brand Identity" , type: 'id' , imageSrc: '/icons/projects/verasce/Black Logo.png' , to: '/naqrah'},
-                {id: 6 , title: "Tanmea Website" , type: 'website' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
-                {id: 7 , title: "Jackorta Apps Website" , type: 'website' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
-                {id: 8 , title: "Tanmea Website" , type: 'id' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
-                {id: 9 , title: "Tanmea Website" , type: 'id' , imageSrc: '/icons/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 1 , title: "Naqrah Brand Identity & Website" , type: 'website' , imageSrc: 'img/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 2 , title: "Bayan Medican Logo" , type: 'id' , imageSrc: 'img/projects/bayan/logo.png' , to: '/bayan'},
+                {id: 3 , title: "Durrat Alkhaligh Identity" , type: 'id' , imageSrc: 'img/projects/durra/logo.png' , to: '/durrat-alkhaligh'},
+                {id: 4 , title: "Tatwer Alalamya Identity" , type: 'id' , imageSrc: 'img/projects/tatwer/logo.jpg' , to: '/tatwer'},
+                {id: 5 , title: "Versace Brand Identity" , type: 'id' , imageSrc: 'img/projects/verasce/Black Logo.png' , to: '/naqrah'},
+                {id: 6 , title: "Tanmea Website" , type: 'website' , imageSrc: 'img/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 7 , title: "Jackorta Apps Website" , type: 'website' , imageSrc: 'img/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 8 , title: "Tanmea Website" , type: 'id' , imageSrc: 'img/projects/naqrah/logo.png' , to: '/naqrah'},
+                {id: 9 , title: "Tanmea Website" , type: 'id' , imageSrc: 'img/projects/naqrah/logo.png' , to: '/naqrah'},
             ]
         }
     },

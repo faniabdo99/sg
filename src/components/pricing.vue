@@ -62,7 +62,7 @@
               <div class="prcing-panel pricing-panel-high wow fadeInRight">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-rocket"></i> Big Boy</h3>
+                          <h3 class="plan-title"><i class="fas fa-rocket"></i> Advanced</h3>
                       </div>
                       <div class="plan-price">
                           <p>1000$</p> <span>One Time Payment</span>

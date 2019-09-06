@@ -5,23 +5,23 @@
       <div class="projects-grid">
             <div class="project-view main-project wow fadeInDown">
                 <router-link to="naqrah">
-                        <img class="project-image" src="/icons/projects/naqrah/background.png" alt="Naqrah Idenitiy Background">
+                        <img class="project-image" src="/img/projects/naqrah/background.png" alt="Naqrah Idenitiy Background">
                 </router-link>
             </div>
             <div class="project-view main-row-project wow fadeInRight">
                 <router-link to="tatwer">
-                <img class="project-image" src="/icons/projects/tatwer/poster.jpg" alt="Tatwer Project Identity">
+                <img class="project-image" src="/img/projects/tatwer/poster.jpg" alt="Tatwer Project Identity">
                 </router-link>
             </div>
             <div class="project-view wow fadeInUp">
                 <router-link to="duraat-alkhaligh">
-                <img class="project-image" src="/icons/projects/durra/logo.png" alt="Duraat Alkaligh Identity">
+                <img class="project-image" src="/img/projects/durra/logo.png" alt="Duraat Alkaligh Identity">
                 </router-link>
             </div>
             <div class="project-view wow fadeInUp">
                 <router-link to="/verasce">
               
-                <img class="project-image" src="icons/projects/verasce/cover.jpg" alt="Semicolon Group Identity">
+                <img class="project-image" src="img/projects/verasce/cover.jpg" alt="Semicolon Group Identity">
                 </router-link>
             </div>
       </div> <!-- End Grid View -->

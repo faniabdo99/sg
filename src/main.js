@@ -5,6 +5,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import vueSmoothScroll from 'vue2-smooth-scroll'
 const WOW = require('wowjs');
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
 
 //Import Needed Components
 import Home from './Home'
@@ -21,6 +24,7 @@ import Verasce from './components/pages/projects/verasce'
 
 /* Init The Core Packages */
 Vue.use(vueSmoothScroll)
+Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 Vue.use(VueRouter)
   window.wow = new WOW.WOW({

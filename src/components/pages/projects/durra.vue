@@ -7,7 +7,7 @@
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="brand-main-info wow fadeInDown">
                                 <div class="logo-container">
-                                    <img src="/icons/projects/durra/logo.png" alt="Durrat Alkhaligh Logo">
+                                    <img src="img/projects/durra/logo.png" alt="Durrat Alkhaligh Logo">
                                 </div>
                                 <h1>Durrat Alkhaligh</h1>
                         </div>
@@ -36,7 +36,7 @@
             <div class="brand-concept">
                 <h2 class="wow fadeInLeft">Brand Idea & Concept</h2>
                 <p class="wow fadeInLeft"><b>Durrat Alkhaligh</b> is a water related company , that makes blue color a priority not just a choice.</p>
-                <img class="full-width-image" src="icons/projects/durra/pre5.png" alt="Durrat Alkhaligh Identity Mockup" title="Durrat Alkhalig Identity Mockup" >
+                <img class="full-width-image" src="img/projects/durra/pre5.png" alt="Durrat Alkhaligh Identity Mockup" title="Durrat Alkhalig Identity Mockup" >
             </div>
         </div>
         <div class="row">
@@ -44,7 +44,7 @@
                 <h2 class="wow fadeInLeft">Logo</h2>
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="logo-idea wow zoomIn">
-                            <img src="/icons/projects/durra/logo.png" alt="Durra Alkhaligh Alalamya Logo">
+                            <img src="img/projects/durra/logo.png" alt="Durra Alkhaligh Alalamya Logo">
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                 <h2 class="wow fadeInLeft">Envelope</h2>
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/durra/envelope.png" alt="Durra Alkhaligh Envelope">
+                            <img class="full-width-image" src="img/projects/durra/envelope.png" alt="Durra Alkhaligh Envelope">
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <h2 class="wow fadeInLeft">Extra Elements</h2>
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/durra/packaging-box.png" alt="Packging Box">
+                            <img class="full-width-image" src="img/projects/durra/packaging-box.png" alt="Packging Box">
                         </div>
                     </div>
 
@@ -75,7 +75,7 @@
                 <h2 class="wow fadeInLeft">Social Media Elements</h2>
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/durra/bunch-of-bottles.jpg" alt="Durra Alkhaligh Cover Image">
+                            <img class="full-width-image" src="img/projects/durra/bunch-of-bottles.jpg" alt="Durra Alkhaligh Cover Image">
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ $project-brand: #2bbbdf;
 }
 .brand-cover{
     height: 100vh;
-    background: url('/icons/projects/durra/bunch-of-bottles.jpg') no-repeat center center;
+    background: url('/img/projects/durra/bunch-of-bottles.jpg') no-repeat center center;
     background-size: cover;
     .brand-cover-content{
         height: 100vh;

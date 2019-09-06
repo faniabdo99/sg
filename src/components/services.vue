@@ -1,7 +1,7 @@
 <template>
   <section id="services" class="services-section">
     <h2>Our Services</h2>
-    <p>This Section is under development , we need to find better idea and better excution .</p>
+    <p>We provide services in branding and digital design , take a look</p>
       <div class="row">
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">

@@ -6,7 +6,7 @@
        <div class="col-md-4">
             <div class="team-container wow fadeInLeft">
                 <div class="team-member">
-                    <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
+                    <div class="team-member-image"><img src="/img/abd.jpg" alt="Abd Alrahman Fani" ></div>
                     <h3>Abd Alrahman Fani <br><small>Founder & CEO</small></h3>
                 </div>
                 <blockquote>
@@ -18,7 +18,7 @@
        <div class="col-md-4">
             <div class="team-container wow fadeInDown">
                 <div class="team-member">
-                    <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
+                    <div class="team-member-image"><img src="/img/abd.jpg" alt="Abd Alrahman Fani" ></div>
                     <h3>Tyasser Ibrahim <br><small>CO-Founder</small></h3>
                 </div>
                 <blockquote>
@@ -30,7 +30,7 @@
             <div class="col-md-4">
                 <div class="team-container wow fadeInRight">
                     <div class="team-member">
-                        <div class="team-member-image"><img src="/icons/abd.jpg" alt="Abd Alrahman Fani" ></div>
+                        <div class="team-member-image"><img src="/img/sameh.jpeg" alt="Abd Alrahman Fani" ></div>
                         <h3>Sameh Sagherjy <br><small>Graphic Designer</small></h3>
                     </div>
                     <blockquote>

@@ -7,7 +7,7 @@
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="brand-main-info wow fadeInDown">
                                 <div class="logo-container">
-                                    <img src="/icons/projects/tatwer/logo.jpg" alt="Tatwer Logo">
+                                    <img src="img/projects/tatwer/logo.jpg" alt="Tatwer Logo">
                                 </div>
                                 <h1>Tatwer Alalamya</h1>
                         </div>
@@ -44,12 +44,12 @@
                 <h2 class="wow fadeInLeft">Logo</h2>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="logo-idea wow zoomIn">
-                            <img src="/icons/projects/tatwer/logo.jpg" alt="Tatwer Alalamya Logo">
+                            <img src="img/projects/tatwer/logo.jpg" alt="Tatwer Alalamya Logo">
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="logo-brand-bg wow zoomIn">
-                            <img src="/icons/projects/tatwer/Full-Color Logo MockUp.jpg" alt="Tatwer Alalamya Logo">
+                            <img src="img/projects/tatwer/Full-Color Logo MockUp.jpg" alt="Tatwer Alalamya Logo">
                         </div>
                     </div>
                 </div>
@@ -59,12 +59,12 @@
                 <h2 class="wow fadeInLeft">Bussnies Card</h2>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="bussnies-card-front wow zoomIn">
-                            <img src="/icons/projects/tatwer/card-front.jpg" alt="Tatwer Alalamya Bussnies Card">
+                            <img class="full-width-image" src="img/projects/tatwer/card-front.jpg" alt="Tatwer Alalamya Bussnies Card">
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="bussnies-card-back wow zoomIn">
-                            <img src="/icons/projects/tatwer/card-back.jpg" alt="Tatwer Alalamya Bussnies Card">
+                            <img class="full-width-image" src="img/projects/tatwer/card-back.jpg" alt="Tatwer Alalamya Bussnies Card">
                         </div>
                     </div>
                 </div>
@@ -74,12 +74,12 @@
                 <h2 class="wow fadeInLeft">Extra Elements</h2>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/tatwer/rollup.jpg" alt="Roll Up Banner">
+                            <img class="full-width-image" src="img/projects/tatwer/rollup.jpg" alt="Roll Up Banner">
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image"  src="/icons/projects/tatwer/poster.jpg" alt="Poster">
+                            <img class="full-width-image"  src="img/projects/tatwer/poster.jpg" alt="Poster">
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                 <h2 class="wow fadeInLeft">Social Media Elements</h2>
                     <div class="col-md-12 col-xs-12 col-sm-12">
                         <div class="wow zoomIn">
-                            <img class="full-width-image" src="/icons/projects/tatwer/social.jpg" alt="Tatwer Facebook Page">
+                            <img class="full-width-image" src="img/projects/tatwer/social.jpg" alt="Tatwer Facebook Page">
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ $project-brand: #dfc42b;
 }
 .brand-cover{
     height: 100vh;
-    background: url('/icons/projects/tatwer/Full-Color Logo MockUp.jpg') no-repeat center center;
+    background: url('/img/projects/tatwer/Full-Color Logo MockUp.jpg') no-repeat center center;
     background-size: cover;
     .brand-cover-content{
         height: 100vh;
@@ -213,10 +213,6 @@ $project-brand: #dfc42b;
     width: 90%;
     margin:auto;
     img{
-        width: 400px;
-        height: 200px;
-        display: block;
-        margin: auto;
         filter: drop-shadow(0px 0px 5px $black);
     }
 }
