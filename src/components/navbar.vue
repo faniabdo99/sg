@@ -1,5 +1,5 @@
 <template>
-      <nav :scroll="navBgOnScroll">
+      <nav class="{{ addColoredClass }}" :scroll="navBgOnScroll">
         <router-link to="/" class="brand-name">
                 <div><img src="img/logo.png" alt="Logo" title="Semicolon Group" /></div>
                 <div><b><span>S</span>emicolon Group</b></div>
@@ -23,6 +23,7 @@
 <script>
 export default {
   name: 'Navbar',
+  props: ['addColoredClass'],
   methods:{
       ToggleNavbar : function(){
           let navbarList = document.querySelector(".links-list");
@@ -48,6 +49,7 @@ export default {
 //Component Live Cycle Hooks    
 created () {
     window.addEventListener('scroll', this.navBgOnScroll);
+    console.log(this.addColoredClass);
   }
 }
 </script>

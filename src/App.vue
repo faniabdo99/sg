@@ -4,7 +4,6 @@
         <about></about>
         <services></services>
         <portfolio></portfolio>
-        <team></team>
         <testos></testos>
         <doit></doit>
         <pricing></pricing>
@@ -18,7 +17,6 @@ import Hero from './components/hero.vue'
 import About from './components/about-us.vue'
 import Services from './components/services.vue'
 import Portfolio from './components/portfolio.vue'
-import Team from './components/team.vue'
 import Testos from './components/testos.vue'
 import Doit from './components/do-it.vue'
 import Pricing from './components/pricing.vue'
@@ -26,7 +24,7 @@ import Contact from './components/contact.vue'
 export default {
   name: 'app',
   components: {
-    Hero,About,Services,Portfolio,Team,Testos,Doit,Pricing,Contact
+    Hero,About,Services,Portfolio,Testos,Doit,Pricing,Contact
   },
 
   created(){

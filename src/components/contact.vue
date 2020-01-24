@@ -4,11 +4,10 @@
             <h2>Contact Us</h2>
             <p>24/7 , Always at Your Service</p>
             <div class="col-md-4 col-xs-12 col-sm-12">
-                <p class="section-description"><b>Semicolon Group</b> Provide Modern Soulotions All Around The World , But For Those Who Like The Face-to-Face Prespetive , You Can Find Us in The Adresses Below</p>
+                <p class="section-description"><b>Semicolon Group</b> Provide Modern Solutions All Around The World , But For Those Who Like The Face-to-Face Perspective , You Can Find Us in The Locations Below</p>
                 <ul>
                     <li><i class="fas fa-clock"></i> 24 Hours , 7 Days</li>
                     <li><i class="fas fa-map-marker-alt"></i> 6 Of October City , Egypt</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Birute , Lebanone</li>
                     <li><i class="fas fa-map-marker-alt"></i> Basrah , Iraq</li>
                     <li><i class="fas fa-envelope"></i> sales@semicolongroup.com </li>
                     <li><i class="fas fa-phone"></i> +2200 115 1411 867</li>
@@ -44,7 +43,7 @@ export default {
             var that = this;
             //Make XHR Request Here to contact API and recieve response
             let xhr = new XMLHttpRequest(); // the constructor has no arguments
-            xhr.open('GET', '/apis/contact.php?ContactSection='+'contact'+'&SenderName='+that.SenderName+'&SenderContactMethod='+that.SenderContactMethod+'&SenderMessage='+that.SenderMessage);
+            xhr.open('GET', 'http://localhost/sg/apis/contact.php?ContactSection='+'contact'+'&SenderName='+that.SenderName+'&SenderContactMethod='+that.SenderContactMethod+'&SenderMessage='+that.SenderMessage);
             xhr.send();
             xhr.onreadystatechange = function() {
               if(xhr.readyState == 4){

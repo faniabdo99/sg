@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <navbar></navbar>
     <transition name="fade">
       <router-view></router-view>
     </transition>
@@ -9,13 +8,12 @@
 </template>
 
 <script>
-import Navbar from './components/navbar.vue'
 import FooterComp from './components/footer-comp.vue'
 
 export default {
   name: 'Home',
   components: {
-    Navbar,FooterComp
+    FooterComp
   }
 }
 </script>

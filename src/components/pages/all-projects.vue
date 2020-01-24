@@ -1,41 +1,32 @@
 <template>
 <div id="top" class="container-fluid">
-    <section class="all-projects">
-        <h1>Portfolio - Made By Passion , Not Designers</h1>
-    </section>
     <div class="row">
-        <div class="col-md-3 col-xs-12 col-sm-12">
-            <div class="filters">
-                <h2>Filter by type</h2>
-                <ul class="projects-filters">
-                    <li><a @click="type=''"><i class="fas fa-asterisk"></i>  All</a></li>
-                    <li><a @click="type='logo'"><i class="fab fa-pied-piper"></i>  Logos</a></li>
-                    <li><a @click="type='website'"><i class="fas fa-globe"></i>  Websites</a></li>
-                    <li><a @click="type='id'"><i class="fas fa-id-card"></i>  Identities</a></li>  
-                </ul>
-            </div>
+        <navbar :addColoredClass="active" ></navbar>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12">
+            <section class="all-projects-header">
+                <div class="logo">
+                    <h1><img src="img/logo.png" alt="Semicolon Group" > Semicolon Group</h1>
+                </div>
+                <p>Some of our Most inspiring projects along the road , Check 'em out!</p>
+            </section>
         </div>
-    <div class="col-md-9 col-xs-12 col-sm-12">
-  
-        <transition-group tag="div" class="projects-list" name="shuffle">
-            <div class="item" v-for="item in filteredItems"  v-bind:key="item.id" >
-                
-                    <div class="img-container">
-                        <img :src="item.imageSrc" :alt=" item.title + item.type" >
-                    </div>
-                    <div class="text-container">
-                         <h2>{{item.title}}</h2>
-                    </div>
-                    <router-link :to="item.to">Full Project</router-link>
-            </div>
-        </transition-group>
+    <div class="col-md-4 col-xs-12 col-sm-12">
+        <img src="https://placehold.it/100x100" alt="" title="">
      </div>
    </div>
 </div>
 </template>
 
 <script>
+import Navbar from '../navbar.vue';
+
 export default {
+    name: "AllProjects",
+   components: {
+    Navbar
+  },
     data: function(){
         return{
             type: '',
@@ -78,69 +69,24 @@ export default {
   transform: translateY(0);
 
 }
-.row{
-    margin-top: 30px;
-}
-.all-projects{
-    background-color: $brand;
-    height: 50vh;
-    padding-top: 25vh;
-    box-sizing: border-box;
-    h1{
-        color:#fff;
-        text-align: center;
-        font-size: 2.5em;
-    }
-}
-.filters{
-    padding:25px;
-    box-sizing: border-box;
-    background-color:$light-gray;
-    h2{
-        color:$brand;
-        margin-bottom: 25px;
-   
-    }
-}
-ul.projects-filters{   
-    li{
+.all-projects-header{
+    margin-top: 100px;
+    text-align: center;
+    .logo{
         margin-bottom: 15px;
-        a{
-
-            i{
-                color :$brand;
-                margin-right:8px;
-                &::after{
-                    content: "";
-                    display: block;
-                    width:100%;
-                    margin-top: 5px;
-                    height: 2px;
-                    background-color:$brand;
-                    transform: translateX(-20px);
-                    transition: all ease 0.3s;
-                    opacity: 0;
-                }
-            }
-            text-decoration: none;
-            color:$black;
-            font-size: 0.9em;
-            font-weight: bold;
-            transition: all ease  0.3s;
-
-            &:hover{
-                cursor: pointer;
-                color:$brand;
-                transition: all ease  0.3s;
-                i{
-                    &::after{
-                        opacity: 1;
-                        transition: all ease 0.3s;
-                        transform: translateX(0);
-                    }
-                }
+        h1{
+            font-size:1.5em;
+            img{
+                width:40px;
+                height:40px;
+                margin-right:10px;
+                border-radius: 50%;
+                margin-bottom: -10px;
             }
         }
+    }
+    p{
+        color:$dark-gray;
     }
 }
 .projects-list{

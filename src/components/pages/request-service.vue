@@ -17,7 +17,7 @@
                 <input v-model="SenderContactMethod" type="text" name="contact" placeholder="Your email or phone number so we can reply">
                 <label for="message">Message</label>
                 <textarea v-model="SenderMessage" name="message" rows="10" placeholder="Any additional information about your request"></textarea>
-                <button type="submit" @click="SendMessage" >Send</button>
+                <button type="submit" @click="SendMessage" id="send">Send</button>
                 <p>Notice: One of <b>Semicolon Group</b> Represents Will Contact You in Less Than 24 Hours.</p>
                 <div id="response" v-html="ActionResponse"></div>
             </form>
@@ -41,6 +41,7 @@ export default {
   },
   methods: {
       SendMessage : function(){
+          var SendButton = document.getElementById('send');
           var that = this;
           //Make XHR Request Here to contact API and recieve response
           let xhr = new XMLHttpRequest(); // the constructor has no arguments

@@ -2,7 +2,7 @@
   <section id="pricing" class="pricing-section">
       <h2 class="section-title">Pricing</h2>
       <p class="section-description">Affordable & For Everyone</p>
-      <p class="section-clear">The below pricing is detecated to the design and web development proccess , if you need more than that we 
+      <p class="section-clear">The below pricing is dedicated to the design and web development process , if you need more than that we 
           suggest you to <a href="#contact" v-smooth-scroll="{offset: -70}">contact us</a> to discuss the details about your project.
       </p>
       <div class="row">
@@ -34,7 +34,7 @@
               <div class="prcing-panel pricing-panel-med wow fadeInDown">
                   <div class="pricing-plane-description">
                       <div class="padding-box">
-                          <h3 class="plan-title"><i class="fas fa-star"></i> Meduim</h3>
+                          <h3 class="plan-title"><i class="fas fa-star"></i> Medium</h3>
                       </div>
                       <div class="plan-price">
                           <p>500$</p> <span>One Time Payment</span>
@@ -42,12 +42,12 @@
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Logo</li>
-                            <li><i class="fas fa-check"></i> Bussnies Crad , Letter Head , Envelope</li>
+                            <li><i class="fas fa-check"></i> Business Card , Letter Head , Envelope</li>
                             <li><i class="fas fa-check"></i> Rollup , T-Shirt , Stamp</li>
                             <li><i class="fas fa-check"></i> Social Media Cover</li>
                             <li><i class="fas fa-check"></i> 8 Social Media Posts</li>
                             <li><i class="fas fa-check"></i> Dynamic Website</li>
-                            <li><i class="fas fa-check"></i> 2 Bussnies Emails</li>
+                            <li><i class="fas fa-check"></i> 2 Business Emails</li>
                         </ul>
                         <hr>
                         <br><br>
@@ -70,13 +70,13 @@
                       <div class="padding-box">
                         <ul>
                             <li><i class="fas fa-check"></i> Logo</li>
-                            <li><i class="fas fa-check"></i> Bussnies Crad , Letter Head , Envelope</li>
+                            <li><i class="fas fa-check"></i> Business Card , Letter Head , Envelope</li>
                             <li><i class="fas fa-check"></i> Rollup , T-Shirt , Stamp</li>
                             <li><i class="fas fa-check"></i> Social Media Cover</li>
                             <li><i class="fas fa-check"></i> 12 Social Media Posts</li>
-                            <li><i class="fas fa-check"></i> Custome Website</li>
-                            <li><i class="fas fa-check"></i> Google Bussnies Services</li>
-                            <li><i class="fas fa-check"></i> 4 Bussnies Emails</li>
+                            <li><i class="fas fa-check"></i> Custom Website</li>
+                            <li><i class="fas fa-check"></i> Google Business Services</li>
+                            <li><i class="fas fa-check"></i> 4 Business Emails</li>
                         </ul>
                         <hr>
                         <br><br>

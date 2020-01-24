@@ -13,7 +13,7 @@
               <ul>
                 <li>Visual Identity</li>
                 <li>Logo Design</li>
-                <li>Bussnies Card</li>
+                <li>Business Card</li>
                 <li>Letter Head</li>
                 <li>Rollups</li>
               </ul>
@@ -57,21 +57,19 @@
             </div>
           </div>
         </div>
-
-
         <div class="col-md-4 col-xs-6 col-sm-6">
           <div class="card-container wow fadeIn">
             <div class="card-icon">
               <i class="fas fa-bullhorn"></i>
             </div>
             <div class="card-content">
-              <h3>Digital Mrkeitng</h3>
+              <h3>Digital Marketing</h3>
               <ul>
                 <li>Page Photo</li>
                 <li>Page Cover</li>
                 <li>Posters Designs</li>
                 <li>Account Supervision</li>
-                <li>Mrkeiting Campings</li>
+                <li>Marketing Campaigns</li>
               </ul>
             </div>
           </div>
@@ -105,10 +103,10 @@
             <div class="card-content">
               <h3>Printing</h3>
               <ul>
-                <li>Bussnies Cards</li>
+                <li>Business Cards</li>
                 <li>Letter Head</li>
-                <li>Brouchors</li>
-                <li>Papper Printing</li>
+                <li>Brochures</li>
+                <li>Paper Printing</li>
                 <li>Fabric Printing</li>
               </ul>
             </div>
