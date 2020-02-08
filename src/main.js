@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-//Import Core Packages 
+//Import Core Packages
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import vueSmoothScroll from 'vue2-smooth-scroll'
@@ -19,6 +19,7 @@ import App from './App'
 import Naqrah from './components/pages/projects/naqrah'
 import Tatwer from './components/pages/projects/tatwer'
 import DurratAlkaligh from './components/pages/projects/durra'
+import NewProject from './components/pages/new-project'
 import Verasce from './components/pages/projects/verasce'
 
 
@@ -42,7 +43,8 @@ const router = new VueRouter({
     {path: '/verasce' , component:Verasce},
     {path:'/project' , component:SingleProject},
     {path:'/projects' , component:AllProjects},
-    {path:'/request' , component:RequestService}
+    {path:'/request' , component:RequestService},
+    {path:'/new-project' , component:NewProject}
   ],
   scrollBehavior (to, from, savedPosition) {
     if(savedPosition){

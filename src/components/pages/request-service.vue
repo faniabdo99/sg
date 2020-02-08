@@ -1,7 +1,6 @@
 <template>
 <div>
-
-    <div class="navbar-bg"></div>
+  <navbar :navActive="true" ></navbar>
     <section class="free-consult">
         <div class="row">
             <h1>Let's Talk</h1>
@@ -28,7 +27,11 @@
 </template>
 
 <script>
+import Navbar from '../navbar'
 export default {
+  components:{
+    Navbar
+  },
   name: 'RequestService',
   data: function(){
       return {
@@ -77,13 +80,11 @@ export default {
         color: #22c722;
     }
 }
-
-.navbar-bg{
-    height: 100px;
-    background-color: $brand;
+nav{
+  margin-bottom: 150px;
 }
 .free-consult{
-    padding: $section-padding;
+    padding: 150px 5%;
     h1{
         color:$brand;
         font-size: 2.5em;

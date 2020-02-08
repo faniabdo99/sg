@@ -1,5 +1,5 @@
 <template>
-      <nav class="{{ addColoredClass }}" :scroll="navBgOnScroll">
+      <nav :class="{ active: navActive }" :scroll="navBgOnScroll">
         <router-link to="/" class="brand-name">
                 <div><img src="img/logo.png" alt="Logo" title="Semicolon Group" /></div>
                 <div><b><span>S</span>emicolon Group</b></div>
@@ -23,7 +23,11 @@
 <script>
 export default {
   name: 'Navbar',
-  props: ['addColoredClass'],
+  props: ['navActive'],
+  data: function(){
+    return {
+    }
+  },
   methods:{
       ToggleNavbar : function(){
           let navbarList = document.querySelector(".links-list");
@@ -36,20 +40,24 @@ export default {
       //End Toggle Navbar Function Here .
  navBgOnScroll: function(){
         let nav = document.querySelector('nav');
-            if (window.scrollY <= 50) { // Just an example
-                nav.classList.remove('active');
-            } else {
-                nav.classList.add('active');
-            }
-        
+        if(this.navActive == true){
+          nav.classList.add('active');
+        }else{
+          if (window.scrollY <= 50) { // Just an example
+              nav.classList.remove('active');
+          } else {
+              nav.classList.add('active');
+          }
+        }
+
       },
       //End Navbar Scroll Here
   },
-    
-//Component Live Cycle Hooks    
+
+
+//Component Live Cycle Hooks
 created () {
     window.addEventListener('scroll', this.navBgOnScroll);
-    console.log(this.addColoredClass);
   }
 }
 </script>
@@ -68,7 +76,7 @@ nav{
     z-index:999999;
     position: fixed;
     width: 90%;
-  
+
     //The Logo and the brand name
     .brand-name{
         display: flex;
@@ -102,6 +110,11 @@ nav{
         li{
           display: inline-block;
           margin-left:5%;
+          &.active{
+            a{
+              color:$brand;
+            }
+          }
           &.important-link{
               a{
                  border:2px solid #fff;
@@ -114,18 +127,18 @@ nav{
                      height:0;
                      margin:0;
                  }
-             
+
                    &:hover{
                      background-color: #fff;
                      border-color: $brand;
                      transition: all ease .3s;
                      color:$brand;
-               
+
                    }
               }
           }
           a{
-              transition: all ease .3s; 
+              transition: all ease .3s;
               color:#fff;
               font-weight: bold;
               text-decoration: none;
@@ -135,7 +148,6 @@ nav{
                     width:50%;
                     height:2px;
                     margin:4px auto 0 auto;
-
                     background-color: #fff;
                     border-radius:5px;
                     transform: translateY(15px);
@@ -152,7 +164,7 @@ nav{
                   }
               }
           }
-        }        
+        }
         &.active{
             opacity:1;
             display: block;
@@ -176,7 +188,7 @@ nav{
                 background: none;
                 border-color: $brand;
                 color:$brand;
-            }           
+            }
         }
     }
 }
@@ -217,7 +229,7 @@ nav{
         display: block;
         margin-left: auto;
         text-align: right;
-        padding-right: 25px;       
+        padding-right: 25px;
         i{
             font-size:1.5em;
             cursor: pointer;
@@ -235,8 +247,8 @@ nav{
         top: 62px;
         left:0;
         transition:all ease 0.5s;
-    
-        
+
+
         li{
           padding:10px;
           display: block;
@@ -263,7 +275,7 @@ nav{
               }
           }
           a{
-              transition: all ease .3s; 
+              transition: all ease .3s;
               color:#fff;
               font-weight: bold;
               text-decoration: none;
